@@ -1,0 +1,50 @@
+@import '../../styles/theme-variables.scss';
+
+.my-services {
+  //background-image: url(../../assets/background.webp);
+  //background-size: cover;
+  //background-blend-mode: multiply;
+  text-align: center;
+  @include themify($themes) {
+    background: themed('secondary');
+    color: themed('text');
+  }
+}
+
+.section__title--services {
+  position: relative;
+  @include themify($themes) {
+    color: themed('primary');
+  }
+  &::after {
+    content: '';
+    display: block;
+    width: 3em;
+    height: 5px;
+    margin: 0.5em auto 1em;
+    opacity: 0.25;
+    @include themify($themes) {
+      background: themed('text');
+    }
+  }
+}
+
+.services {
+  margin-bottom: 4em;
+  @media (min-width: 800px) {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2em;
+}
+
+.service {
+  max-width: 500px;
+  margin: 0 auto;
+}
+  
+/* .service + .service + .service + .service{
+      margin-left: 2em;
+  }*/
+} 

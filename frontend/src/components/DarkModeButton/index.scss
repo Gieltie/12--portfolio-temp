@@ -1,0 +1,46 @@
+@import '../../styles/theme-variables.scss';
+
+.dark-mode {
+  position: absolute;
+  top: 4em;
+  left: 2em;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+  &__label {
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include themify($themes) {
+      background: themed('primary');
+      border: 1px solid themed('background');
+    }
+    &--ball {
+      width: 21px;
+      height: 21px;
+      position: absolute;
+      left: 1px;
+      top: 1px;
+      border-radius: 50%;
+      transition: transform 0.2s linear;
+      @include themify($themes) {
+        background: themed('secondary');
+      }
+    } 
+    &--moon, &--sun {@include themify($themes) {
+      color: themed('background');
+    }}
+  }
+}
+
+.checkbox:checked + .checkbox__label .checkbox__label--ball {
+  transform: translateX(24px);
+}

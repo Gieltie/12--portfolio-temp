@@ -1,16 +1,35 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ThemeContext } from './contexts/theme-context';
+import { useState } from "react";
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export default function App() {
+
+  const isBrowserDefaulDark = () => window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  const getDefaultTheme = () => {
+    const localStorageTheme = localStorage.getItem('default-theme');
+    const browserDefault = isBrowserDefaulDark() ? 'dark' : 'light';
+    return localStorageTheme || browserDefault;
+  };
+  
+  const [theme, setTheme] = useState(getDefaultTheme());
+
   return (
-    <BrowserRouter>
-      <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-      <Footer />
-    </BrowserRouter>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <div className={`theme-${theme}`}>
+        <div className='home'>
+          <BrowserRouter>
+            <Navbar />
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+              </Routes>
+            <Footer />
+          </BrowserRouter>
+        </div>
+      </div>
+    </ThemeContext.Provider>
   )
 }

@@ -1,8 +1,10 @@
-import { Squash as Hamburger } from "hamburger-react";
-import logo from "../../assets/logo-gael.svg"
-
-import './index.scss'
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { Squash as Hamburger } from "hamburger-react";
+
+import DarkModeButton from "../DarkModeButton";
+//import logo from "../../assets/logo-gael.svg"
+import './index.scss'
 
 export default function Nav(){
   const [showLinks, setShowLinks] = useState(false)
@@ -12,34 +14,27 @@ export default function Nav(){
   }
 
   return (
-    <header className={`${showLinks ? "nav-open" : ""}`}>
+    <header className={`header ${showLinks ? "nav-open" : ""}`}>
       <div className="logo">
-        <img src={logo} alt="" />
+        {/* <img src={logo} alt="" /> */}
       </div>
-      {/* <button className="nav-toggle" aria-label="toggle navigation" onClick={handleShowLinks}>
-        <span className="hamburger"></span>
-      </button> */}
+      <button 
+        className="nav-toggle"
+        aria-label="toggle navigation" 
+        onClick={handleShowLinks}
+      >
+        {/* <span className="hamburger"></span> */}
+        <Hamburger color="#64a093"/>
+      </button>
       <div className="nav-toggle" aria-label="toggle navigation" onClick={handleShowLinks}>
-        <Hamburger color={`var(--color-second)`}/>
       </div>
       <nav className="nav">
-
-
-        {/* <div  className="dark__mode">
-          <input type="checkbox" className="checkbox" id="checkbox">
-          <label for="checkbox" className="checkbox-label">
-            <i className="fas fa-moon"></i>
-            <i className="fas fa-sun"></i>
-            <span className="ball"></span>
-          </label>
-        </div> */}
-
-
+      <DarkModeButton />
         <ul className="nav__list">
-          <li className="nav__item"><a href="#home" className="nav__link">Home</a></li>
-          <li className="nav__item"><a href="#services" className="nav__link">My Service</a></li>
-          <li className="nav__item"><a href="#about" className="nav__link">About Me</a></li>
-          <li className="nav__item"><a href="#work" className="nav__link">My Work</a></li>
+          <li className="nav__list--item"><Link to="/" className="nav__list--link">Home</Link></li>
+          <li className="nav__list--item"><Link to="/services" className="nav__list--link">My Service</Link></li>
+          <li className="nav__list--item"><Link to="/about" className="nav__list--link">About Me</Link></li>
+          <li className="nav__list--item"><Link to="/work" className="nav__list--link">My Work</Link></li>
         </ul>
       </nav>
     </header>

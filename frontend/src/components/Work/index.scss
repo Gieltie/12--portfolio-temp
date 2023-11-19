@@ -1,0 +1,42 @@
+@import '../../styles/theme-variables.scss';
+
+.my-work {
+  text-align: center;
+  @include themify($themes) {
+    background: themed('primary');
+    color: themed('text');
+  }    
+}
+
+.portfolio {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+}
+
+.portfolio__item {
+  overflow: hidden;
+  border-radius: 1em;
+  @include themify($themes) {
+    background: themed('background');
+  }
+}
+
+.portfolio__img {
+  transition: 
+      transform 750ms cubic-bezier(.5, 0, .5, 1),
+      opacity 250ms linear;
+}
+
+.portfolio__item:focus {
+  position: relative;
+  z-index: 2; 
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+  transform: scale(1.2);
+  opacity: .5;
+}

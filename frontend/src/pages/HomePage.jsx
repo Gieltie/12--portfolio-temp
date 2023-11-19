@@ -1,7 +1,16 @@
+import About from "../components/About";
+import Intro from "../components/Intro";
+import Services from "../components/Services";
+//import Work from "../components/Work";
+import './index.scss'
+
 export default function HomePage() {
   return (
     <>
-      <h1>Home Page</h1>
+      <Intro />
+      <Services />
+      <About />
+      {/* <Work /> */}
     </>
   )
 }

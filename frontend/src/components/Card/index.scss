@@ -1,0 +1,54 @@
+@import '../../styles/theme-variables.scss';
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 200px;
+  perspective: 1000px;
+  margin: 0 auto;
+}
+
+.flip-card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card__inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card__front, 
+.flip-card__back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* border: 10px solid var(--color-primary); */
+  border-radius: 1rem;
+  @include themify($themes) {
+    box-shadow: themed('shadow');
+  }
+}
+
+.flip-card__front {
+  @include themify($themes){
+    background: themed('secondary');
+    color: themed('primary');
+  }
+}
+
+.flip-card__back {
+  @include themify($themes) {
+    background: themed('secondary');
+    color: themed('primary');
+  }
+  transform: rotateY(180deg);
+}

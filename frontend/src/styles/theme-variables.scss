@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;700&family=Lato:wght@300;400;700&display=swap');
+
+$font-family-first: 'Bai Jamjuree', cursive, sans-serif;
+$font-family-second: 'lato', cursive, sans-serif;
+
+$font-weight-reg: 300;
+$font-weight-bold: 700;
+
+$font-size-h1: 3rem;
+$font-size-h2: 2.25rem;
+$font-size-h3: 1.25rem;
+$font-size-body: 1rem;
+
+$font-size-h1-800: 4.5rem;
+$font-size-h2-800: 3.75rem;
+$font-size-h3-800: 1.5rem;
+$font-size-body-800: 1.125rem;
+
+$shadow-btn:  0.50em 0.50em 1em rgba(0, 0, 0, 0.6);
+
+$themes: (
+ light: (
+   text: #101917,
+   background: #fcfdfd,
+   primary: #53887d,
+   secondary: #dceae7,
+   accent: #5f9b8e,
+   shadow:  0.50em 0.50em 1em rgba(0, 0, 0, 0.6),
+ ),
+ dark: (
+   text: #e6efed,
+   background: #020303,
+   primary: #77aca1,
+   secondary: #152320,
+   accent: #64a093,
+   shadow:  0.50em 0.50em 1em rgba(255, 255, 255, 0.6),
+ ),
+);
+
+/* Bleu */
+/* $themes: (
+ light: (
+   text: #00223d,
+   background: #d8e0ee,
+   primary: #0061c2,
+   secondary: #9ed0ff,
+   accent: #629fdf,
+ ),
+ dark: (
+   text: #c2e3ff,
+   background: #111927,
+   primary: #3d9eff,
+   secondary: #003261,
+   accent: #205c9d
+ ),
+); */
+
+@mixin themify($themes) {
+  @each $theme, $map in $themes {
+    .theme-#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value,
+          )
+        ) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
