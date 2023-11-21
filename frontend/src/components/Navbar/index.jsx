@@ -1,40 +1,37 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Squash as Hamburger } from "hamburger-react";
 
 import DarkModeButton from "../DarkModeButton";
-//import logo from "../../assets/logo-gael.svg"
+import logo from "../../assets/logo-gael-gh.svg"
 import './index.scss'
 
 export default function Nav(){
   const [showLinks, setShowLinks] = useState(false)
-
+  console.log(showLinks)
   const handleShowLinks = () => {
     setShowLinks(!showLinks)
   }
 
   return (
-    <header className={`header ${showLinks ? "nav-open" : ""}`}>
-      <div className="logo">
-        {/* <img src={logo} alt="" /> */}
+    <header className={`nav ${showLinks ? "nav-open" : ""}`}>
+      <div>
+        <Link to="/#home" ><img className="nav__logo" src={logo} alt="" /></Link>
       </div>
       <button 
-        className="nav-toggle"
+        className="nav__toggle"
         aria-label="toggle navigation" 
         onClick={handleShowLinks}
       >
-        {/* <span className="hamburger"></span> */}
-        <Hamburger color="#64a093"/>
+        <span className="nav__toggle--hamburger"></span>
       </button>
-      <div className="nav-toggle" aria-label="toggle navigation" onClick={handleShowLinks}>
-      </div>
-      <nav className="nav">
+      
+      <nav className="nav__menu">
       <DarkModeButton />
-        <ul className="nav__list">
-          <li className="nav__list--item"><Link to="/" className="nav__list--link">Home</Link></li>
-          <li className="nav__list--item"><Link to="/services" className="nav__list--link">My Service</Link></li>
-          <li className="nav__list--item"><Link to="/about" className="nav__list--link">About Me</Link></li>
-          <li className="nav__list--item"><Link to="/work" className="nav__list--link">My Work</Link></li>
+        <ul className="nav__menu--list">
+          <li className="nav__menu--item"><Link to="/#home" className="nav__menu--link" onClick={handleShowLinks}>Home</Link></li>
+          <li className="nav__menu--item"><Link to="/#services" className="nav__menu--link" onClick={handleShowLinks}>My Service</Link></li>
+          <li className="nav__menu--item"><Link to="/#about" className="nav__menu--link" onClick={handleShowLinks}>About Me</Link></li>
+          <li className="nav__menu--item"><Link to="/#work" className="nav__menu--link" onClick={handleShowLinks}>My Work</Link></li>
         </ul>
       </nav>
     </header>

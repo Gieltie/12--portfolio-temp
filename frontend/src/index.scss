@@ -23,9 +23,9 @@ h3 { font-size: $font-size-h3 }
   h3 { font-size: $font-size-h3-800 }
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   margin: 0;
@@ -50,6 +50,10 @@ strong { font-weight: $font-weight-bold }
 
 .home {
   position: relative;
+  margin-top: 5.5em;
+  @media (min-width: 600px) {
+    margin-top: 6.5rem;
+  }
   @include themify($themes) {
     background: themed('background');
     color: themed('text');

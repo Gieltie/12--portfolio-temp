@@ -4,6 +4,7 @@ import { useState } from "react";
 import { HomePage, Project, Error } from "./pages";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToHashElement from "./contexts/ScrollToHashEllement";
 
 export default function App() {
 
@@ -22,6 +23,7 @@ export default function App() {
       <div className={`theme-${theme}`}>
         <div className='home'>
           <BrowserRouter>
+          <ScrollToHashElement />
             <Navbar />
               <Routes>
                 <Route path="/" element={<HomePage />} />

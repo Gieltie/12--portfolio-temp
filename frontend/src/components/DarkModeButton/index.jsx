@@ -14,7 +14,7 @@ export default function DarkModeButton() {
   }
 
   return (
-    <div  className="dark-mode">
+    <div  className="dark-mode-btn">
       <input type="checkbox" className="checkbox" id="checkbox"  onChange={handleThemeChange} /* checked={theme === 'light'} *//>
       <label htmlFor="checkbox" className="checkbox__label">
         <LuMoon className="checkbox__label--moon"/>
