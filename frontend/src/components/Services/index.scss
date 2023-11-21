@@ -5,6 +5,7 @@
   //background-size: cover;
   //background-blend-mode: multiply;
   text-align: center;
+  border-radius: 52% 48% 63% 37% / 46% 56% 44% 54%;
   @include themify($themes) {
     background: themed('secondary');
     color: themed('text');

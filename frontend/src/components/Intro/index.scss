@@ -4,8 +4,9 @@
     position: relative;
 }
 
-.intro__img {
-    border-radius: 4em 2em;
+.intro__img,
+.project__img {
+    border-radius: 1em 1em;
     @include themify($themes) {
         box-shadow: themed('shadow');
     }
@@ -27,7 +28,8 @@
         grid-template-columns: min-content max-content;
     }
     
-    .intro__img {
+    .intro__img,
+    .project__img {
         grid-area: img;
         min-width: 250px;
         position: relative;
@@ -38,7 +40,8 @@
       display: inline-block;
     }
     
-    .section__subtitle--intro {
+    .section__subtitle--intro,
+    .section__subtitle--project {
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;

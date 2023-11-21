@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeContext } from './contexts/theme-context';
 import { useState } from "react";
-import HomePage from "./pages/HomePage";
+import { HomePage, Project, Error } from "./pages";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -25,6 +25,8 @@ export default function App() {
             <Navbar />
               <Routes>
                 <Route path="/" element={<HomePage />} />
+                <Route path="/project/:id" element={<Project />} />
+                <Route path="/*" element={<Error />} />
               </Routes>
             <Footer />
           </BrowserRouter>

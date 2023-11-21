@@ -3,13 +3,13 @@
 .footer {
   text-align: center;
   padding: 2.5em 0;
-  //font-size: var(--font-size-h3);
+  font-size: $font-size-h3;
   @include themify($themes) {
     background: themed('text');
     color: themed('primary');
   }
   &__link {
-    //font-weight: var(--font-weight-bold);
+    font-weight: $font-weight-bold;
     &:hover {
       opacity: .7;
     }

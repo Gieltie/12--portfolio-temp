@@ -2,11 +2,12 @@ import Card from '../Card'
 import './index.scss'
 import projects from '../../datas/projects.json'
 
-const cards = projects.map((project) => (
+const cards = projects.map(({ title, description, id }, index) => (
   <Card
-    key={project.title}
-    title={project.title}
-    picture={project.picture}
+    key={title + index}
+    title={title}
+    description={description}
+    id={id}
   />
 ));
 
