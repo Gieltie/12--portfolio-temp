@@ -5,13 +5,14 @@
   max-width: 1200px;
   margin: 0 auto;
   border-radius: 86% 14% 85% 15% / 9% 91% 9% 91%;
+  transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
+  @include themify($themes) {
+    background-color: themed('primary');
+    color: themed('text');
+  }    
   @media (min-width: 800px) {
     border-radius: 64% 36% 83% 17% / 46% 89% 11% 54%;
   }
-  @include themify($themes) {
-    background: themed('primary');
-    color: themed('text');
-  }    
 }
 
 .portfolio {
@@ -22,7 +23,7 @@
   gap: 1em;
 }
 
-.portfolio__item {
+/*.portfolio__item {
   overflow: hidden;
   border-radius: 1em;
   @include themify($themes) {
@@ -30,7 +31,7 @@
   }
 }
 
-.portfolio__img {
+ .portfolio__img {
   transition: 
       transform 750ms cubic-bezier(.5, 0, .5, 1),
       opacity 250ms linear;
@@ -39,10 +40,10 @@
 .portfolio__item:focus {
   position: relative;
   z-index: 2; 
-}
+} 
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
   transform: scale(1.2);
   opacity: .5;
-}
+}*/

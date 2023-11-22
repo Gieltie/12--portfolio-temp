@@ -7,7 +7,6 @@ import './index.scss'
 
 export default function Nav(){
   const [showLinks, setShowLinks] = useState(false)
-  console.log(showLinks)
   const handleShowLinks = () => {
     setShowLinks(!showLinks)
   }

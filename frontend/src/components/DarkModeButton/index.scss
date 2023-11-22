@@ -22,6 +22,7 @@
     @include themify($themes) {
       background: themed('primary');
       border: 1px solid themed('background');
+      transition: all 500ms ease-in-out;
     }
     &--ball {
       width: 21px;
@@ -33,10 +34,12 @@
       transition: transform 0.2s linear;
       @include themify($themes) {
         background: themed('secondary');
+        transition: all 500ms ease-in-out;
       }
     } 
     &--moon, &--sun {@include themify($themes) {
       color: themed('background');
+      transition: color 750ms ease-in-out;
     }}
   }
 }

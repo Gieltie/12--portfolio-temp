@@ -8,6 +8,7 @@
 .intro__img,
 .project__img {
     border-radius: 1em 1em;
+    transition: box-shadow 750ms ease-in-out;
     @include themify($themes) {
         box-shadow: themed('shadow');
     }
@@ -21,8 +22,8 @@
     .intro {
         display: grid;
         width: min-content;
-        margin: 5.6em auto;
-        grid-column-gap: 1em;
+        margin: 5.5em auto;
+        grid-column-gap: 2em;
         grid-template-areas: 
             "img title"
             "img subtitle";

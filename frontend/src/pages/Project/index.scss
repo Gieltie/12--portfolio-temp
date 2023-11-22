@@ -1,3 +1,5 @@
+@import '../../styles/theme-variables.scss';
+
 .techno {
   list-style: none;
   display: flex;
@@ -6,6 +8,17 @@
   padding: 0;
   &__item {
     margin: 0 .5em;
+    font-size: 3em;
+    @include themify($themes) {
+      color: themed('accent');
+    }
+  }
+}
+
+.project__img {
+  display: none;
+  @media (min-width: 600px) {
+    display: initial;
   }
 }
 

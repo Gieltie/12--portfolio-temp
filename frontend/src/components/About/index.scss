@@ -5,6 +5,7 @@
   margin: 0 auto;
   &__img {
     border-radius: 2em;
+    transition: box-shadow 1500ms ease-in-out;
     @include themify($themes) {
       box-shadow: themed('shadow');
   }

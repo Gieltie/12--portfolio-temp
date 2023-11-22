@@ -4,14 +4,16 @@
   text-align: center;
   margin-top: 1em;
   border-radius: 52% 48% 63% 37% / 46% 56% 44% 54%;
+  transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
   @include themify($themes) {
-    background: themed('secondary');
+    background-color: themed('secondary');
     color: themed('text');
   }
 }
 
 .section__title--services {
   position: relative;
+  transition: color 1500ms ease-in-out;
   @include themify($themes) {
     color: themed('primary');
   }
@@ -21,9 +23,10 @@
     width: 3em;
     height: 5px;
     margin: 0.5em auto 1em;
+    transition: background-color 500ms ease-in-out;
     opacity: 0.25;
     @include themify($themes) {
-      background: themed('text');
+      background-color: themed('text');
     }
   }
 }

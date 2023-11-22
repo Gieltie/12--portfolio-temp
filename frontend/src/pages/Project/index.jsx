@@ -1,13 +1,17 @@
-import { Link, Navigate, useParams } from 'react-router-dom'
-import data from '../../datas/projects.json'
-import './index.scss'
+import { Link, Navigate, useParams } from 'react-router-dom';
+import data from '../../datas/projects.json';
+import './index.scss';
+
+import { SiRedux, SiCss3, SiReact, SiHtml5, SiJavascript, SiNodedotjs, SiSass } from "react-icons/si";
+
 
 function Project() {
-  const { id } = useParams()
-  const currentItem = data.find((item) => item.id === id)
+  const { id } = useParams();
+  const currentItem = data.find((item) => item.id === id);
+  const iconsList = [ SiRedux, SiCss3, SiReact, SiHtml5, SiJavascript, SiNodedotjs, SiSass ];
 
-  if (!currentItem){
-    return <Navigate to="/error"/>
+  if (!currentItem) {
+    return <Navigate to="/error" />;
   }
 
   return (
@@ -16,28 +20,35 @@ function Project() {
         <h1 className="section__title section__title--project">
           <strong>{currentItem.title}</strong>
         </h1>
-        <p className="section__subtitle section__subtitle--project">{currentItem.organisme}</p>
+        <p className="section__subtitle section__subtitle--project">
+          {currentItem.organisme}
+        </p>
         <img src={currentItem.image} alt="" className="project__img" />
       </section>
 
-
       <div className="portfolio__item--individual">
         <p>{currentItem.desc}</p>
-          <img src={currentItem.screen} alt="" className="portfolio__item--img" />
-
+        <img src={currentItem.screen} alt="" className="portfolio__item--img" />
         <div>
           <ul className="techno">
-            {currentItem.techno.map((tag, index) => (
-              <li className="techno__item" key={index}>{tag}</li>
-            ))}
+            {currentItem.techno.map((item, index) => {
+              const CustomTag = iconsList.find((icon) => icon.name === item);
+              if (CustomTag) {
+                return <li className="techno__item" key={index}><CustomTag /></li>;
+              } else {
+                return <li className="techno__item" key={index}>{item}</li>;
+              }
+            })}
           </ul>
         </div>
 
-        <Link className='portfolio__links' to={currentItem.github}>Github</Link>
+        <Link className="portfolio__links" to={currentItem.github}>
+          Github
+        </Link>
         <p>{currentItem.descTwo}</p>
       </div>
     </>
-  )
+  );
 }
 
-export { Project }
+export { Project };

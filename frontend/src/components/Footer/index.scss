@@ -3,13 +3,14 @@
 .footer {
   text-align: center;
   padding: 2.5em 0;
-  font-size: $font-size-h3;
+  transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
   @include themify($themes) {
-    background: themed('secondary');
+    background-color: themed('secondary');
     color: themed('text');
   }
   &__link {
     font-weight: $font-weight-bold;
+    transition: opacity 500ms ease-in-out;
     &:hover {
       opacity: .7;
     }
@@ -24,6 +25,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  font-size: 1.7em;
   margin: 2em 0 0;
   padding: 0;
   &__item {
@@ -31,6 +33,7 @@
   }
   &__link {
     padding: .5em;
+    transition: opacity 500ms ease-in-out;
     &:hover {
       opacity: .7;
     }

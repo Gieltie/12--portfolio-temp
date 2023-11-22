@@ -6,21 +6,25 @@
     text-decoration: none;
     cursor: pointer;
     border-radius: 0.5em;
-    font-size: .8rem;
+    font-size: 0.8em;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: $font-weight-reg;
     box-shadow: $shadow-btn;
-    transition: transform 200ms ease-in-out;
+    transition: all 500ms ease-in-out;
     @include themify($themes) {
-      background: themed('primary');
-      color: themed('text');
+      background: themed('accent');
+      color: themed('secondary');
+    }
+    @media (min-width: 800px) {
+      font-size: 1em;
     }
     &:hover {
       transform: scale(1.1);
+      font-weight: 700;
+      @include themify($themes) {
+        background: themed('secondary');
+        color: themed('accent');
+      }
     }
-/*     &:focus {
-      outline: 3px solid inherit;
-      outline-offset: 3px;
-    } */
 }
