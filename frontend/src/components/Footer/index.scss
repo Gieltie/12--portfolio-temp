@@ -5,8 +5,8 @@
   padding: 2.5em 0;
   font-size: $font-size-h3;
   @include themify($themes) {
-    background: themed('text');
-    color: themed('primary');
+    background: themed('secondary');
+    color: themed('text');
   }
   &__link {
     font-weight: $font-weight-bold;

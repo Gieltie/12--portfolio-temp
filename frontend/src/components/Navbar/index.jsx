@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import DarkModeButton from "../DarkModeButton";
-import logo from "../../assets/logo-gael-gh.svg"
+import logo from "../../assets/logo-gael.svg"
 import './index.scss'
 
 export default function Nav(){

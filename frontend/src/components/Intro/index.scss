@@ -2,6 +2,7 @@
 
 .intro {
     position: relative;
+    margin-top: 5em;
 }
 
 .intro__img,
@@ -20,7 +21,7 @@
     .intro {
         display: grid;
         width: min-content;
-        margin: 0 auto;
+        margin: 5.6em auto;
         grid-column-gap: 1em;
         grid-template-areas: 
             "img title"
