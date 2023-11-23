@@ -26,4 +26,8 @@
   display: flex;
   justify-content: center;
   text-decoration: none;
+  font-size: 3em;
+  @include themify($themes) {
+    color: themed('accent');
+  }
 }
