@@ -1,13 +1,13 @@
 import About from "../../components/About";
 import Intro from "../../components/Intro";
-import Services from "../../components/Services";
+import Skills from "../../components/Skills";
 import Work from "../../components/Work";
 
 function HomePage() {
   return (
     <>
       <Intro />
-      <Services />
+      <Skills />
       <About />
       <Work />
     </>

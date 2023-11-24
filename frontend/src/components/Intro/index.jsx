@@ -1,14 +1,14 @@
 import './index.scss'
-import gael from '../../assets/gael.webp'
+import imageGael from '../../assets/gael.webp'
 
 export default function Intro() {
   return (
     <section className="intro" id="home">
-      <h1 className="section__title section__title--intro">
-          Hi, I am <strong>Gaël Hofman</strong>
+      <h1 className="intro__title">
+          Hello, I am Gaël<strong>Front-end developer</strong>
       </h1>
-      <p className="section__subtitle section__subtitle--intro">Front-end developer</p>
-      <img src={gael} alt="A picture of gael smiling" className="intro__img" />
+      <p className="intro__subtitle">I code beautifully simple things, and I love what I do.</p>
+      <img className="intro__image" src={imageGael} alt="A picture of gael smiling"/>
     </section>
   )
 }

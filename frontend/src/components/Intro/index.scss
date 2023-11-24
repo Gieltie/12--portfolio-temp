@@ -1,55 +1,66 @@
 @import '../../styles/theme-variables.scss';
 
 .intro {
-    position: relative;
-    margin-top: 5em;
-}
-
-.intro__img,
-.project__img {
-    border-radius: 1em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 5em auto;
+  &__title {
+    margin-bottom: .25em;
+    font-weight: $font-weight-reg;
+    & strong {
+      display: block;
+    }
+  }
+  &__subtitle {
+    display: inline-block;
+    font-family: $font-family-second;
+    font-size: $font-size-h3;
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding: 1.25em 3em;
+    border-radius: 89% 11% 92% 8% / 13% 70% 30% 87%;
+    transition: color 1500ms ease-in-out;
+    @include themify($themes) {
+      background-color: themed('accent');
+      color: themed('secondary');
+    }
+  }
+  &__image {
+    width: 70%;
+    margin-top: 2em;
+    border-radius: 1em;
     transition: box-shadow 750ms ease-in-out;
     @include themify($themes) {
         box-shadow: themed('shadow');
-    }
-}
-
-.section__subtitle--intro {
-  display: inline-block;
-}
-
-@media (min-width: 600px) {
-    .intro {
-        display: grid;
-        width: min-content;
-        margin: 5.5em auto;
-        grid-column-gap: 2em;
-        grid-template-areas: 
-            "img title"
-            "img subtitle";
-        grid-template-columns: min-content max-content;
-    }
-    
-    .intro__img,
-    .project__img {
-        grid-area: img;
-        min-width: 250px;
-        position: relative;
-        z-index: 2;
-    }   
-    
-    .section__subtitle--intro {
+    }    
+  }
+  @media (min-width: 600px) {
+    min-height: calc(60vh + 100px);
+    display: grid;
+    width: min-content;
+    margin-top: 5.5em;
+    grid-column-gap: 2em;
+    grid-template-areas: 
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+    &__subtitle {
       display: inline-block;
+      align-self: start;
+      grid-column: -1 / 1;
+      grid-row: 2;
+      text-align: right;
+      position: relative;
+      left: -1.5em;
+      width: calc(100% + 1.5em);
     }
-    
-    .section__subtitle--intro,
-    .section__subtitle--project {
-        align-self: start;
-        grid-column: -1 / 1;
-        grid-row: 2;
-        text-align: right;
-        position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em);
+    &__image {
+      grid-area: img;
+      min-width: 250px;
+      position: relative;
+      z-index: 2;
     }
+  }
 }

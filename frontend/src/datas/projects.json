@@ -6,11 +6,6 @@
     "image": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
     "description": "description",
     "github": "https://github.com/Gieltie/08--kasa",
-    "techno": [
-      "SiCss3", 
-      "SiHtml5", 
-      "react"
-    ],
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta commodi sunt totam nemo quibusdam vitae necessitatibus quam reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "descTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/argent-bank-web.webp" 
@@ -22,11 +17,6 @@
     "image": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/kasa.webp",
     "description": "description",
     "github": "https://github.com/Gieltie/08--kasa",
-    "techno": [
-      "SiCss3", 
-      "SiHtml5", 
-      "SiSass"
-    ],
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta commodi sunt totam nemo quibusdam vitae necessitatibus quam reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "descTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/kasa-web.webp" 
@@ -38,11 +28,6 @@
     "image": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/sophie-bluel.webp",
     "description": "description",
     "github": "https://github.com/Gieltie/08--kasa",
-    "techno": [
-      "SiCss3", 
-      "SiHtml5", 
-      "SiSass"
-    ],
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta commodi sunt totam nemo quibusdam vitae necessitatibus quam reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "descTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/sophie-bluel-web.webp" 
@@ -54,11 +39,6 @@
     "image": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/oh-my-food.webp",
     "description": "description",
     "github": "https://github.com/Gieltie/08--kasa",
-    "techno": [
-      "SiCss3", 
-      "SiHtml5", 
-      "SiNodedotjs"
-    ],
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta commodi sunt totam nemo quibusdam vitae necessitatibus quam reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "descTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/oh-my-food-web.webp" 
@@ -70,11 +50,6 @@
     "image": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/booki.webp",
     "description": "description",
     "github": "https://github.com/Gieltie/08--kasa",
-    "techno": [
-      "SiCss3", 
-      "SiHtml5", 
-      "SiJavascript"
-    ],
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta commodi sunt totam nemo quibusdam vitae necessitatibus quam reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "descTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/booki-web.webp" 
@@ -86,9 +61,6 @@
     "image": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/portfolio-gael.webp",
     "description": "description",
     "github": "https://github.com/Gieltie/08--kasa",
-    "techno": [
-      "SiRedux", "SiCss3", "SiReact", "SiHtml5", "SiJavascript", "SiNodedotjs", "SiSass"
-    ],
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta commodi sunt totam nemo quibusdam vitae necessitatibus quam reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "descTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil soluta reprehenderit similique hic iste magni est ullam voluptatibus asperiores nobis dolorem.",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/portfolio-gael-web.webp" 

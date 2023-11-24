@@ -3,9 +3,23 @@
 .about-me {
   max-width: 1000px;
   margin: 0 auto;
+  @media (min-width: 600px) {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-areas: 
+      "title img"
+      "subtitle img"
+      "text img";
+    grid-column-gap: 2em;
+  }
   &__img {
     border-radius: 2em;
     transition: box-shadow 1500ms ease-in-out;
+    @media (min-width: 600px) {
+      grid-area: img;
+      position: relative;
+      z-index: 2;
+    }
     @include themify($themes) {
       box-shadow: themed('shadow');
   }
@@ -13,21 +27,6 @@
 }
 
 @media (min-width: 600px) {
-  .about-me {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-areas: 
-        "title img"
-        "subtitle img"
-        "text img";
-    grid-column-gap: 2em;
-    &__img {
-      grid-area: img;
-      position: relative;
-      z-index: 2;
-    }
-  }
-    
   .section__title--about {
     grid-area: title;
   }

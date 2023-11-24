@@ -23,12 +23,12 @@ export default function Nav(){
       >
         <span className="nav__toggle--hamburger"></span>
       </button>
+      <DarkModeButton />
       
       <nav className="nav__menu">
-      <DarkModeButton />
         <ul className="nav__menu--list">
           <li className="nav__menu--item"><Link to="/#home" className="nav__menu--link" onClick={handleShowLinks}>Home</Link></li>
-          <li className="nav__menu--item"><Link to="/#services" className="nav__menu--link" onClick={handleShowLinks}>My Service</Link></li>
+          <li className="nav__menu--item"><Link to="/#skills" className="nav__menu--link" onClick={handleShowLinks}>Skills</Link></li>
           <li className="nav__menu--item"><Link to="/#about" className="nav__menu--link" onClick={handleShowLinks}>About Me</Link></li>
           <li className="nav__menu--item"><Link to="/#work" className="nav__menu--link" onClick={handleShowLinks}>My Work</Link></li>
         </ul>
