@@ -12,33 +12,40 @@
     & strong {
       display: block;
     }
+    @include themify($themes) {
+      text-shadow: themed('accent') 1px 0 5px;
+    }   
   }
   &__subtitle {
     display: inline-block;
     font-family: $font-family-second;
-    font-size: $font-size-h3;
+    font-size: $font-size-body;
     margin-top: 0;
     margin-bottom: 1em;
     padding: 1.25em 3em;
     border-radius: 89% 11% 92% 8% / 13% 70% 30% 87%;
-    transition: color 1500ms ease-in-out;
+    transition: background-color 500ms ease-in-out, 
+                color 1500ms ease-in-out,
+                text-shadow 1500ms ease-in-out;
     @include themify($themes) {
       background-color: themed('accent');
       color: themed('secondary');
+      text-shadow: themed('text') 1px 0 5px;
     }
   }
   &__image {
     width: 70%;
     margin-top: 2em;
     border-radius: 1em;
-    transition: box-shadow 750ms ease-in-out;
+    transition: box-shadow 1500ms ease-in-out;
     @include themify($themes) {
         box-shadow: themed('shadow');
     }    
   }
-  @media (min-width: 600px) {
+  @media (min-width: 850px) {
     min-height: calc(60vh + 100px);
     display: grid;
+    align-content: center;
     width: min-content;
     margin-top: 5.5em;
     grid-column-gap: 2em;
@@ -53,8 +60,8 @@
       grid-row: 2;
       text-align: right;
       position: relative;
-      left: -1.5em;
-      width: calc(100% + 1.5em);
+      left: -3.5em;
+      width: calc(100% + 5.5em);
     }
     &__image {
       grid-area: img;

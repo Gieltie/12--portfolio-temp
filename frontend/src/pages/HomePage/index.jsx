@@ -1,7 +1,7 @@
 import About from "../../components/About";
 import Intro from "../../components/Intro";
 import Skills from "../../components/Skills";
-import Work from "../../components/Work";
+import Work from "../../components/Works";
 
 function HomePage() {
   return (

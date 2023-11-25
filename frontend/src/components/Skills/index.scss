@@ -3,19 +3,22 @@
 .my-skills {
   text-align: center;
   margin: 0 2em;
-  border-radius: 47% 53% 72% 28% / 43% 82% 18% 57%;
+  border-radius: 40% 60% 25% 75% / 74% 10% 90% 26%;
   transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
   @include themify($themes) {
     background-color: themed('secondary');
   }
   @media (min-width: 800px) {
+    border-radius: 47% 53% 72% 28% / 43% 82% 18% 57%;
     margin: 0 5em;
   }
   &__title {
     position: relative;
-    transition: color 1500ms ease-in-out;
+    transition: color 1500ms ease-in-out,
+                text-shadow 500ms ease-in-out;
     @include themify($themes) {
       color: themed('primary');
+      text-shadow: themed('background') 5px 5px 5px;
     }
     &::after {
       content: '';
@@ -48,22 +51,26 @@
   @media (min-width: 800px) {
   }
   &__title {
-    transition: color 1500ms ease-in-out;
+    transition: color 1500ms ease-in-out,
+                text-shadow 500ms ease-in-out;
     @include themify($themes) {
-      color: themed('primary')
+      color: themed('primary');
+      text-shadow: themed('background') 5px 5px 5px;
     }
   }
   &__icons {
     display: flex;
     flex-direction: column;
-    list-style: none;
     align-items: start;
-    gap: 0.5em;
+    gap: 1em;
+    list-style: none;
+    font-family: $font-family-second;
     padding-left: 0;
+    letter-spacing: 1px;
     transition: color 1500ms ease-in-out;
     @include themify($themes) {
       color: themed('text');
-      //text-shadow: themed('text') 1px 0 5px;
+      text-shadow: themed('accent') 1px 0 5px;
     }
   }
 }

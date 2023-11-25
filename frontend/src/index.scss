@@ -9,7 +9,9 @@
 /* Styles generales */
 h1,
 h2,
-h3 {
+h3,
+a,
+li {
   line-height: 1;
   margin: 0;
 }
@@ -18,16 +20,14 @@ h1 { font-size: $font-size-h1 }
 h2 { font-size: $font-size-h2 }
 h3 { font-size: $font-size-h3 }
 body { font-size: $font-size-body }
+a { font-size: $font-size-body;}
+li { font-size: $font-size-body;}
 @media (min-width: 800px) {
   h1 { font-size: $font-size-h1-800 }
   h2 { font-size: $font-size-h2-800 }
   h3 { font-size: $font-size-h3-800 }
   body { font-size: $font-size-body-800 }
 }
-
-/* html {
-  scroll-behavior: smooth;
-} */
 
 body {
   margin: 0;
@@ -44,8 +44,6 @@ img {
   max-width: 100%;
 }
 
-strong { font-weight: $font-weight-bold }
-
 .home {
   position: relative;
   transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
@@ -56,26 +54,10 @@ strong { font-weight: $font-weight-bold }
 }
 
 /* title section */
-.section__title {
-  margin-bottom: .25em;
-}
 
 //.section__title--intro,
-.section__title--project {
+/* .section__title--project {
   font-weight: $font-weight-reg;
-}
-
-/* .section__title--intro strong {
-  display: block;
-} */
-
-.section__subtitle {
-  margin: 0;
-  font-size: $font-size-body;
-  transition: color 1500ms ease-in-out;
-  @include themify($themes) {
-    color: themed('text');
-  }
 }
 
 .section__subtitle--intro,
@@ -88,16 +70,7 @@ strong { font-weight: $font-weight-bold }
   @include themify($themes) {
     background-color: themed('accent');
   }
-}
-
-.section__subtitle--work {
-  font-weight: $font-weight-reg;
-  margin-bottom: 2em;
-  transition: color 1500ms ease-in-out;
-  @include themify($themes) {
-    color: themed('secondary');
-  }
-}
+} */
 
 /* Pages portfolio individuelle */
 

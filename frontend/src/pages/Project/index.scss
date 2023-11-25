@@ -31,3 +31,37 @@
     color: themed('accent');
   }
 }
+
+/* .intro__image,
+.project__image {
+    border-radius: 1em 1em;
+    transition: box-shadow 750ms ease-in-out;
+    @include themify($themes) {
+        box-shadow: themed('shadow');
+    }
+} */
+
+/* @media (min-width: 600px) {
+    .intro__image,
+    .project__image {
+        grid-area: img;
+        min-width: 250px;
+        position: relative;
+        z-index: 2;
+    }   
+    
+    .intro__subtitle {
+      display: inline-block;
+    }
+    
+    .intro__subtitle,
+    .section__subtitle--project {
+        align-self: start;
+        grid-column: -1 / 1;
+        grid-row: 2;
+        text-align: right;
+        position: relative;
+        left: -1.5em;
+        width: calc(100% + 1.5em);
+    }
+} */

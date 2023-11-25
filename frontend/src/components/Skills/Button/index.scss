@@ -2,22 +2,20 @@
 
 .btn {
     display: inline-block;
-    padding: .5em 2.5em;
+    padding: .5em 1.5em;
     text-decoration: none;
     cursor: pointer;
     border-radius: 0.5em;
-    font-size: 0.8em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: $font-weight-reg;
     box-shadow: $shadow-btn;
-    transition: all 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out, 
+                color 1500ms ease-in-out, 
+                transform 500ms ease-in-out,
+                font-weight 500ms ease-in-out;
     @include themify($themes) {
       background: themed('accent');
       color: themed('secondary');
-    }
-    @media (min-width: 800px) {
-      font-size: 1em;
     }
     &:hover {
       transform: scale(1.1);

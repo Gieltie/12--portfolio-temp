@@ -1,0 +1,59 @@
+@import '../../styles/theme-variables.scss';
+
+.my-work {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 0.5em;
+  border-radius: 89% 11% 92% 8% / 9% 95% 5% 91%;
+  transition: background-color 500ms ease-in-out, 
+              color 1500ms ease-in-out,
+              text-shadow 1500ms ease-in-out;
+  @include themify($themes) {
+    background-color: themed('primary');
+    color: themed('secondary');
+    text-shadow: themed('text') 1px 0 5px;
+  }
+  &__subtitle {
+    font-size: $font-size-body;
+    font-family: $font-family-second;
+    padding: 1.25em 3em;
+    margin-bottom: 3em;
+  }    
+  &__projects {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+  }
+  @media (min-width: 800px) {
+    margin: 0 auto;
+    border-radius: 64% 36% 83% 17% / 46% 69% 31% 54%;
+  }
+}
+
+/*.portfolio__item {
+  overflow: hidden;
+  border-radius: 1em;
+  @include themify($themes) {
+    background: themed('background');
+  }
+}
+
+ .portfolio__img {
+  transition: 
+      transform 750ms cubic-bezier(.5, 0, .5, 1),
+      opacity 250ms linear;
+}
+
+.portfolio__item:focus {
+  position: relative;
+  z-index: 2; 
+} 
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+  transform: scale(1.2);
+  opacity: .5;
+}*/
