@@ -9,15 +9,18 @@ $font-weight-bold: 700;
 $font-size-h1: 3rem;
 $font-size-h2: 2.25rem;
 $font-size-h3: 1.25rem;
+$font-size-a: 1.25rem;
 $font-size-body: 1rem;
 
 $font-size-h1-800: 4.5rem;
 $font-size-h2-800: 3.75rem;
 $font-size-h3-800: 1.5rem;
+$font-size-a-800: 1.5rem;
 $font-size-body-800: 1.125rem;
 
 $shadow-btn:  0.50em 0.50em 1em rgba(0, 0, 0, 0.6);
 
+/* Vert */
 $themes: (
  light: (
    text: #101917,
@@ -45,13 +48,15 @@ $themes: (
    primary: #0061c2,
    secondary: #9ed0ff,
    accent: #629fdf,
+   shadow:  0.50em 0.50em 1em rgba(0, 0, 0, 0.6),
  ),
  dark: (
    text: #c2e3ff,
    background: #111927,
    primary: #3d9eff,
    secondary: #003261,
-   accent: #205c9d
+   accent: #205c9d,
+   shadow:  0.50em 0.50em 1em rgba(255, 255, 255, 0.6),
  ),
 ); */
 

@@ -35,11 +35,14 @@
       &,
       &::before,
       &::after {
-        background: #64a093;
         width: 2em;
         height: 3px;
         border-radius: 1em;
-        transition: transform 250ms ease-in-out;
+        transition: transform 250ms ease-in-out,
+                    background-color 500ms ease-in-out;
+        @include themify($themes) {
+          background-color: themed('accent');
+        }
       }
       &::before,
       &::after {

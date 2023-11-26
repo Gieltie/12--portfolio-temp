@@ -1,23 +1,22 @@
 [
   {
     "id": "1",
-    "cardImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
     "title": "Argent Bank",
-    "cardDescription": "This project consists of developing a complete and responsive web application for user authentication using React and Redux.",
-    "tags": [ 
-      "Axios", 
-      "JWT", 
-      "React", 
-      "Redux",
-      "MongoDB",
-      "Swagger",
-      "Green Code"
-    ],
     "image": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
-    "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/argent-bank-web.webp",
+    "cardDescription": "cardDescription",
     "description": "This project consists of developing a complete and responsive web application for user authentication using React and Redux. The project starts with the static HTML and CSS provided for the home, login, and profile pages. The application offers the following features: users can visit the home page, log in to the system, log out, and access their profile information after successful login. The project is based on a Redux architecture to manage the overall state of the application. All necessary API routes have been prepared by the back-end team.",
     "github": "https://github.com/Gieltie/08--kasa",
-    "desc": "desc"
+    "desc": "desc",
+    "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/argent-bank-web.webp",
+    "tags": [ 
+              "Axios", 
+              "JWT", 
+              "React", 
+              "Redux",
+              "MongoDB",
+              "Swagger",
+              "Green Code"
+            ]
   },
   {
     "id": "2",
@@ -27,7 +26,6 @@
     "desc": "Creation of a complete website for a rental agency",
     "description": "Creation of a complete website for a rental agency using React.js, Sass and advanced features such as a carousel and display of owner profiles. This project provides an interactive and immersive user experience by allowing users to browse rental offers, view engaging images in carousels, and discover detailed owner profiles.",
     "github": "https://github.com/Gieltie/08--kasa",
-    "siteLink": "https/blabla",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/kasa-web.webp",
     "tags": [ 
               "Sass", 
@@ -45,7 +43,6 @@
     "cardDescription": "Creation of an architect site with administrator management in JS. This project offers the architect the ability to add and remove their work.",
     "description": "Creation of an architect site with administrator management in JavaScript. This project offers the architect the ability to add and remove their work via an API, facilitated by the use of Swagger. Additionally, the site is dynamically optimized to ensure a smooth user experience.",
     "github": "https://github.com/Gieltie/08--kasa",
-    "siteLink": "jfjdjd",
     "desc": "desc",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/sophie-bluel-web.webp",
     "tags": [ 
@@ -106,6 +103,22 @@
               "Wave",
               "Lighthouse",
               "Web Accessibility"
+            ] 
+  },
+  {
+    "id": "7",
+    "title": "724events",
+    "image": "x",
+    "cardDescription": "cardDescription",
+    "description": "724events is a one-page website that was developed for the events agency 724events. The objective of this project was to debug and finalize the website, which had been partially integrated by a previous developer. The site is now fully functional and ready to publish. The source code has been carefully reviewed to resolve all issues and bugs that hindered the visitor experience. Unit tests have been put in place to guarantee the quality of the code and the stability of the site.",
+    "github": "https://github.com/Gieltie/08--kasa",
+    "desc": "desc",
+    "screen": "screen",
+    "tags": [ 
+              "Dubugging", 
+              "Unit Testing", 
+              "Optimization", 
+              "React Dev tools"
             ] 
   }
 ]

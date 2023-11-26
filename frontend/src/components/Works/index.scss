@@ -29,31 +29,6 @@
   }
   @media (min-width: 800px) {
     margin: 0 auto;
-    border-radius: 64% 36% 83% 17% / 46% 69% 31% 54%;
+    border-radius: 64% 36% 83% 17% / 46% 84% 16% 54%;
   }
 }
-
-/*.portfolio__item {
-  overflow: hidden;
-  border-radius: 1em;
-  @include themify($themes) {
-    background: themed('background');
-  }
-}
-
- .portfolio__img {
-  transition: 
-      transform 750ms cubic-bezier(.5, 0, .5, 1),
-      opacity 250ms linear;
-}
-
-.portfolio__item:focus {
-  position: relative;
-  z-index: 2; 
-} 
-
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-  transform: scale(1.2);
-  opacity: .5;
-}*/

@@ -1,26 +1,34 @@
 import { Link } from 'react-router-dom';
+import { FaPlusCircle, FaGithub, FaLink } from 'react-icons/fa';
 import './index.scss';
-import test from '../../assets/webpage/kasa-web.webp'
 
-const Card = ({ title, cardDescription, tags, screen, id }) => {
+const Card = ({ screen, title,  id, cardDescription, github, siteLink }) => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
   
   return (
 
-    <Link to={`./project/${id}`} className="card" onClick={scrollToTop}>
+    <div className="card">
       <div className="card__first">
         <img className="card__first--image" src={screen} alt={title} />
       </div>
       <div className="card__second">
         <h3 className="card__second--title">{title}</h3>
         <p className="card__second--description">{cardDescription}</p>
-        <div className="card__second--tags">
-          {tags.map((tag, id) => (<p key={id}>{tag}</p>))}
-        </div>
+        <span className="card__second--links">
+          {siteLink ? <Link to={siteLink} >
+            <FaLink />
+          </Link> : ""}
+          <Link to={github} >
+            <FaGithub />
+          </Link>
+          <Link to={`./project/${id}`}  onClick={scrollToTop}>
+            <FaPlusCircle />
+          </Link>
+        </span>
       </div>
-    </Link>
+    </div>
 
 )
 }
