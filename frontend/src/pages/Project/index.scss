@@ -2,14 +2,19 @@
 
 
 .portfolio-item {
-  padding: 0 2em;
   max-width: 1000px;
   margin: 0 auto;
-  &__header {
-    max-width: 350px;
+  padding: 0 2em;
+  padding-top: 8em;
+  &__description {
+    max-width: 600px;
+    padding: 3.5em;
     margin: 0 auto;
-    margin-top: 5em;
-    padding: 2.5em;
+    border-radius: 86% 14% 93% 7% / 10% 90% 10% 90%;
+    transition: background-color 500ms ease-in-out;
+    @include themify($themes) {
+      background-color: themed('secondary');
+    }
     &--image {
       width: 100%;
       border-radius: 0.5em;
@@ -18,32 +23,31 @@
         box-shadow: themed('shadow');
       }    
     }
-    @media (min-width: 600px) {
-      max-width: 400px;
+    &--text {
+      margin-top: 2em;
     }
-  }
-  &__text {
-    max-width: 600px;
-    padding: 3em;
-    margin: 0 auto;
-    border-radius: 86% 14% 93% 7% / 10% 90% 10% 90%;
-    transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
-    @include themify($themes) {
-      background-color: themed('secondary');
-    }
-  }
-  &__image {
-    margin-top: 2em;
-    border-radius: 0.5em;
-    transition: box-shadow 1500ms ease-in-out;
-    @include themify($themes) {
-      box-shadow: themed('shadow');
+    &--link {
+      display: flex;
+      gap: 1.5em;
+      margin-top: 1.5em;
+      justify-content: center;
+      & a {
+        transition: color 500ms ease-in-out,
+                    transform 1500ms ease-in-out;
+        @include themify ($themes) {
+          color: themed('text');
+        }
+        &:hover {
+          transform: rotate(360deg);
+          opacity: 0.7;
+        }
+      }
     }
   }
   &__tags {
     display: flex;
     flex-direction: column;
-    margin-top: 3em;
+    margin-top: 1em;
     padding: 1.5em 3em;
     border-radius: 37% 63% 39% 61% / 82% 31% 69% 18%;
     transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
@@ -74,36 +78,6 @@
           background-color: themed('secondary');
           color: themed('text');
           text-shadow: themed('primary') 1px 0 5px;
-        }
-      }
-    }
-  }
-  &__links {
-    display: flex;
-    flex-direction: column;
-
-    margin-top: 3em;
-    padding: 1.5em 3em;
-    border-radius: 86% 14% 93% 7% / 10% 90% 10% 90%;
-    transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
-    @include themify($themes) {
-      background-color: themed('secondary');
-    }
-    &--title {
-      margin: 0 auto;
-      @include themify ($themes) {
-        color: themed('text');
-        text-shadow: themed('accent') 1px 0 5px;
-      }
-    }
-    &--link {
-      display: flex;
-      gap: 1em;
-      margin-top: 1em;
-      justify-content: center;
-      & a {
-        @include themify ($themes) {
-          color: themed('text');
         }
       }
     }

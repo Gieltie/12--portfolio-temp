@@ -16,6 +16,7 @@
     "image": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/argent-bank-web.webp",
     "description": "This project consists of developing a complete and responsive web application for user authentication using React and Redux. The project starts with the static HTML and CSS provided for the home, login, and profile pages. The application offers the following features: users can visit the home page, log in to the system, log out, and access their profile information after successful login. The project is based on a Redux architecture to manage the overall state of the application. All necessary API routes have been prepared by the back-end team.",
+    "siteLink": "https/blabla",
     "github": "https://github.com/Gieltie/08--kasa",
     "desc": "desc"
   },
@@ -45,7 +46,7 @@
     "cardDescription": "Creation of an architect site with administrator management in JS. This project offers the architect the ability to add and remove their work.",
     "description": "Creation of an architect site with administrator management in JavaScript. This project offers the architect the ability to add and remove their work via an API, facilitated by the use of Swagger. Additionally, the site is dynamically optimized to ensure a smooth user experience.",
     "github": "https://github.com/Gieltie/08--kasa",
-    "siteLink": "jfjdjd",
+    "siteLink": "jfjdjdsiteLin",
     "desc": "desc",
     "screen": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/webpage/sophie-bluel-web.webp",
     "tags": [ 
