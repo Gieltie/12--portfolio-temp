@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub, FaLink } from 'react-icons/fa'
 import data from '../../datas/projects.json'
 import './index.scss'
 
@@ -14,25 +14,29 @@ function Project() {
 
   return (
     <>
-      <section className="project-page">
-        {/* <h1 className="project-page__title">
-          <strong>{currentItem.title}</strong>
-        </h1> */}
-        <p className="project-page__subtitle">
-          {currentItem.organisme}
-        </p>
-        <img src={currentItem.image} alt={currentItem.title} className="project-page__image" />
-      </section>
 
-      <div className="portfolio__item--individual">
-        <p>{currentItem.desc}</p>
-          <img src={currentItem.screen} alt="" className="portfolio__item--img" />
-          {/* <div className="card__second--tags">
-          {tags.map((tag, id) => (<p key={id}>{tag}</p>))}
-        </div> */}
-        <Link className='portfolio__links' to={currentItem.github}><FaGithub /></Link>
-        <p>{currentItem.descTwo}</p>
-      </div>
+      <section className="portfolio-item">
+        <div className="portfolio-item__header">
+          <img src={currentItem.image} alt={currentItem.title + " logo"} className="portfolio-item__header--image" />
+        </div>
+        <p className='portfolio-item__text'>{currentItem.description}</p>
+        <img src={currentItem.screen} alt={currentItem.title + " screen shot"} className="portfolio-item__image" />
+
+        <div className="portfolio-item__tags">
+          <h3 className="portfolio-item__tags--title">Technologies used:</h3>
+          <div className="portfolio-item__tags--tag">
+            {currentItem.tags.map((tag, id) => (<p key={id}>{tag}</p>))}
+          </div>
+        </div>
+
+        <div className="portfolio-item__links">
+          <h3 className="portfolio-item__links--title">Site links: </h3>
+          <div className="portfolio-item__links--link">
+            {currentItem.siteLink ? <Link to={currentItem.siteLink}><FaLink /></Link> : ""}
+            <Link to={currentItem.github}><FaGithub /></Link>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

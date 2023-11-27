@@ -1,98 +1,68 @@
 @import '../../styles/theme-variables.scss';
 
-.project-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  margin: 5em auto;
-  &__title {
-    margin-bottom: .25em;
-    font-weight: $font-weight-reg;
-    & strong {
-      display: block;
+
+.portfolio-item {
+  padding: 0 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+  &__header {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 5em;
+    padding: 2.5em;
+    &--image {
+      width: 100%;
+      border-radius: 0.5em;
+      transition: box-shadow 1500ms ease-in-out;
+      @include themify($themes) {
+        box-shadow: themed('shadow');
+      }    
     }
-    @include themify($themes) {
-      text-shadow: themed('accent') 1px 0 5px;
-    }   
+    @media (min-width: 600px) {
+      max-width: 400px;
+    }
   }
-  &__subtitle {
-    display: inline-block;
-    font-family: $font-family-second;
-    font-size: $font-size-body;
-    margin-top: 0;
-    margin-bottom: 1em;
-    padding: 1.25em 3em;
-    border-radius: 89% 11% 92% 8% / 13% 70% 30% 87%;
-    transition: background-color 500ms ease-in-out, 
-                color 1500ms ease-in-out,
-                text-shadow 1500ms ease-in-out;
+  &__text {
+    max-width: 600px;
+    padding: 3em;
+    margin: 0 auto;
+    border-radius: 86% 14% 93% 7% / 10% 90% 10% 90%;
+    transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
     @include themify($themes) {
-      background-color: themed('accent');
-      color: themed('secondary');
-      text-shadow: themed('text') 1px 0 5px;
+      background-color: themed('secondary');
     }
   }
   &__image {
-    width: 70%;
     margin-top: 2em;
-    border-radius: 1em;
+    border-radius: 0.5em;
     transition: box-shadow 1500ms ease-in-out;
     @include themify($themes) {
-        box-shadow: themed('shadow');
-    }    
-  }
-  @media (min-width: 850px) {
-    min-height: calc(60vh + 100px);
-    display: grid;
-    align-content: center;
-    width: min-content;
-    margin-top: 5.5em;
-    grid-column-gap: 2em;
-    grid-template-areas: 
-      "img title"
-      "img subtitle";
-    grid-template-columns: min-content max-content;
-    &__subtitle {
-      display: inline-block;
-      align-self: start;
-      grid-column: -1 / 1;
-      grid-row: 2;
-      text-align: right;
-      position: relative;
-      left: -3.5em;
-      width: calc(100% + 5.5em);
-    }
-    &__image {
-      grid-area: img;
-      min-width: 250px;
-      position: relative;
-      z-index: 2;
+      box-shadow: themed('shadow');
     }
   }
-}
-
-.project-page__image {
-  display: none;
-  @media (min-width: 600px) {
-    display: initial;
-  }
-}
-
-.portfolio__links {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 3em;
-  @include themify($themes) {
-    color: themed('accent');
-  }
-}
-
-    /* &--tags {
+  &__tags {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    padding: 1.5em 3em;
+    border-radius: 37% 63% 39% 61% / 82% 31% 69% 18%;
+    transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
+    @include themify($themes) {
+      background-color: themed('accent');
+    }
+    &--title {
+      margin: 0 auto;
+      @include themify ($themes) {
+        color: themed('text');
+        text-shadow: themed('background') 1px 0 5px;
+      }
+    }
+    &--tag {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       gap: 0.5em;
+      margin-top: 1em;
       & p {
         margin: 0;
         padding: 0.1em 0.3em;
@@ -101,43 +71,41 @@
                     color 1500ms ease-in-out,
                     text-shadow 1500ms ease-in-out;
         @include themify($themes) {
-          background-color: themed('primary');
-          color: themed('secondary');
-          text-shadow: themed('text') 1px 0 5px;
+          background-color: themed('secondary');
+          color: themed('text');
+          text-shadow: themed('primary') 1px 0 5px;
         }
       }
-    } */
+    }
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
 
-/* .intro__image,
-.project__image {
-    border-radius: 1em 1em;
-    transition: box-shadow 750ms ease-in-out;
+    margin-top: 3em;
+    padding: 1.5em 3em;
+    border-radius: 86% 14% 93% 7% / 10% 90% 10% 90%;
+    transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
     @include themify($themes) {
-        box-shadow: themed('shadow');
+      background-color: themed('secondary');
     }
-} */
-
-/* @media (min-width: 600px) {
-    .intro__image,
-    .project__image {
-        grid-area: img;
-        min-width: 250px;
-        position: relative;
-        z-index: 2;
-    }   
-    
-    .intro__subtitle {
-      display: inline-block;
+    &--title {
+      margin: 0 auto;
+      @include themify ($themes) {
+        color: themed('text');
+        text-shadow: themed('accent') 1px 0 5px;
+      }
     }
-    
-    .intro__subtitle,
-    .section__subtitle--project {
-        align-self: start;
-        grid-column: -1 / 1;
-        grid-row: 2;
-        text-align: right;
-        position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em);
+    &--link {
+      display: flex;
+      gap: 1em;
+      margin-top: 1em;
+      justify-content: center;
+      & a {
+        @include themify ($themes) {
+          color: themed('text');
+        }
+      }
     }
-} */
+  }
+}
