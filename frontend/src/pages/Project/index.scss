@@ -82,4 +82,10 @@
       }
     }
   }
+  &__screenShot {
+    margin-top: 2em;
+    @include themify($themes) {
+      box-shadow: themed('shadow');
+    }
+  }
 }

@@ -70,7 +70,7 @@
     transition: color 1500ms ease-in-out;
     @include themify($themes) {
       color: themed('text');
-      text-shadow: themed('accent') 1px 0 5px;
+      text-shadow: themed('background') 1px 0 5px;
     }
   }
 }

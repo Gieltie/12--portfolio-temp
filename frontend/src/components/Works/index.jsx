@@ -2,9 +2,9 @@ import Card from '../Card'
 import './index.scss'
 import projects from '../../datas/projects.json'
 
-const cards = projects.map(({ title, cardDescription, github, siteLink, screen, id }, index) => (
+const cards = projects.map(({ title, cardDescription, github, siteLink, screenShot, id }, index) => (
   <Card
-    screen={screen}
+    screenShot={screenShot}
     title={title}
     key={title + index}
     id={id}

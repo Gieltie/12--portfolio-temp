@@ -19,15 +19,17 @@ li {
 h1 { font-size: $font-size-h1 }
 h2 { font-size: $font-size-h2 }
 h3 { font-size: $font-size-h3 }
-body { font-size: $font-size-body }
-a { font-size: $font-size-a;}
-li { font-size: $font-size-body;}
+body { font-size: $font-size-body}
+a { font-size: $font-size-a}
+li { font-size: $font-size-body}
 @media (min-width: 800px) {
   h1 { font-size: $font-size-h1-800 }
   h2 { font-size: $font-size-h2-800 }
   h3 { font-size: $font-size-h3-800 }
-  a { font-size: $font-size-a-800}
   body { font-size: $font-size-body-800 }
+  a { font-size: $font-size-a-800}
+li { font-size: $font-size-body-800}
+
 }
 
 body {
