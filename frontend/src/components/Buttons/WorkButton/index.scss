@@ -9,6 +9,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     box-shadow: $shadow-btn;
+    font-size: 0.7em;
     transition: background-color 500ms ease-in-out, 
                 color 1500ms ease-in-out, 
                 transform 500ms ease-in-out,
@@ -16,6 +17,9 @@
     @include themify($themes) {
       background: themed('accent');
       color: themed('secondary');
+    }
+    @media (min-width: 800px) {
+      font-size: 1em;
     }
     &:hover {
       transform: scale(1.1);

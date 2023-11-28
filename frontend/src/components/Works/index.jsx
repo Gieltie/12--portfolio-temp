@@ -1,22 +1,22 @@
 import Card from '../Card'
 import { useTranslation } from 'react-i18next';
-import projects from '../../locales/en/global.json'
+import projects from '../../datas/projects.json'
 import './index.scss'
-
-const cards = projects.card.map(({ title, cardDescription, github, siteLink, screenShot, id }, index) => (
-  <Card
-    screenShot={screenShot}
-    title={title}
-    key={title + index}
-    id={id}
-    cardDescription={cardDescription}
-    github={github}
-    siteLink={siteLink}
-  />
-));
 
 export default function Work() {
   const { t } = useTranslation("global")
+  
+  const cards = projects.map(({ title, cardDescription, github, siteLink, screenShot, id }, index) => (
+    <Card
+      screenShot={screenShot}
+      title={title}
+      key={title + index}
+      id={id}
+      cardDescription={t(cardDescription)}
+      github={github}
+      siteLink={siteLink}
+    />
+  ));
 
   return (
     <section className="my-work" id="work">

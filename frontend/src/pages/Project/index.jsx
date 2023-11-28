@@ -1,14 +1,14 @@
 import { Link, Navigate, useParams } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { FaGithub, FaLink } from "react-icons/fa"
-import projects from "../../locales/en/global.json"
+import projects from "../../datas/projects.json"
 import "./index.scss"
 
 
 function Project() {
   const { t } = useTranslation("global")
   const { id } = useParams()
-  const currentItem = projects.card.find((item) => item.id === id)
+  const currentItem = projects.find((item) => item.id === id)
 
   if (!currentItem){
     return <Navigate to="/error"/>

@@ -4,6 +4,7 @@ import { I18nextProvider } from 'react-i18next'
 import i18next from 'i18next'
 import global_en from './locales/en/global.json'
 import global_fr from './locales/fr/global.json'
+import global_nl from './locales/nl/global.json'
 import App from './App.jsx'
 import './index.scss'
 
@@ -17,6 +18,9 @@ i18next.init({
    },
    fr: {
     global: global_fr,
+   },
+   nl: {
+    global: global_nl,
    },
   },
  })

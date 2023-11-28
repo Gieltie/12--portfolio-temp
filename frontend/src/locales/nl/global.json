@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "link1": "StartPagina",
+    "link2": "Mijn Skills",
+    "link3": "Over Mijzelf",
+    "link4": "Mijn Projecten"
+  },
+  "intro": {
+    "title": "Hoi, Ik ben Gaël",
+    "subtitle": "Ik codeer eenvoudige dingen, en ik hou van wat ik doe."
+  },
+  "skills": {
+    "title": "Mijn Skills",
+    "skillTitle": "Andere dingen",
+    "workBtn": "Projecten"
+  },
+  "about": {
+    "title": "Over Mijzelf",
+    "subtitle": "Ik woon in Antibes, Zuid-Frankrijk",
+    "p1": "In 2022 besloot ik een website te maken en ontdekte ik de wereld van coderen en webontwikkeling. Ik maak grote vooruitgang bij het leren van deze nieuwe talen.",
+    "p2": "Ik ben zelfverzekerd, van nature nieuwsgierig en ik werk er voortdurend aan om elk probleem één voor één op te lossen.",
+    "p3": "Als ik niet voor de computer zit, ben ik meestal aan het fietsen, duiken of geniet ik van mijn vrouw en mijn twee kleine boefjes."
+  },
+  "work": {
+    "title": "Mijn Projecten",
+    "subtitle": "Een selectie van mijn projecten"
+  },
+  "portfolioItem": {
+    "title": "Gebruikte technologieën"
+  }
+}
