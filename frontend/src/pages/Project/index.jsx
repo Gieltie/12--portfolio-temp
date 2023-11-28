@@ -1,12 +1,14 @@
 import { Link, Navigate, useParams } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import { FaGithub, FaLink } from "react-icons/fa"
-import data from "../../datas/projects.json"
+import projects from "../../locales/en/global.json"
 import "./index.scss"
 
 
 function Project() {
+  const { t } = useTranslation("global")
   const { id } = useParams()
-  const currentItem = data.find((item) => item.id === id)
+  const currentItem = projects.card.find((item) => item.id === id)
 
   if (!currentItem){
     return <Navigate to="/error"/>
@@ -23,7 +25,7 @@ function Project() {
         </div>
       </div>
       <div className="portfolio-item__tags">
-        <h3 className="portfolio-item__tags--title">Technologies used:</h3>
+        <h3 className="portfolio-item__tags--title">{t("portfolioItem.title")}</h3>
         <div className="portfolio-item__tags--tag">
           {currentItem.tags.map((tag, id) => (<p key={id}>{tag}</p>))}
         </div>

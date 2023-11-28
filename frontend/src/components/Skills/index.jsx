@@ -1,11 +1,14 @@
+import { useTranslation } from "react-i18next";
 import { SiMongodb, SiRedux, SiCss3, SiReact, SiHtml5, SiJavascript, SiNodedotjs, SiSass, SiGithub, SiNetlify, SiVercel } from "react-icons/si";
-import Button from './Button'
+import WorkButton from '../Buttons/WorkButton'
 import './index.scss'
 
 export default function Skills() {
+  const { t } = useTranslation("global")
+
   return (
     <section className="my-skills" id="skills">
-      <h2 className="my-skills__title">My Skills</h2>
+      <h2 className="my-skills__title">{t("skills.title")}</h2>
       <div className="my-skills__container">
         
         <div className="skill">
@@ -31,7 +34,7 @@ export default function Skills() {
         
         
         <div className="skill">
-          <h3 className="skill__title">Other stuff</h3>
+          <h3 className="skill__title">{t("skills.skillTitle")}</h3>
           <ul className="skill__icons">
             <li><SiGithub /> Github</li>
             <li><SiNetlify /> Netlify</li>
@@ -39,7 +42,7 @@ export default function Skills() {
           </ul>
         </div>
       </div> 
-      <Button />
+      <WorkButton />
     </section>
   )
 }

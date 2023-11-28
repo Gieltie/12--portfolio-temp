@@ -1,14 +1,15 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { FaPlusCircle, FaGithub, FaLink } from 'react-icons/fa';
 import './index.scss';
 
 const Card = ({ screenShot, title,  id, cardDescription, github, siteLink }) => {
+  const { t } = useTranslation("global")
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
   
   return (
-
     <div className="card">
       <div className="card__first">
         <img className="card__first--image" src={screenShot} alt={title} />

@@ -1,0 +1,148 @@
+{
+"navbar": {
+  "link1": "Accueil",
+  "link2": "Mes Compétences",
+  "link3": "À propos de moi",
+  "link4": "Mon Travail"
+},
+"intro": {
+  "title": "Moi c'est Gaël",
+  "subtitle": "Je code des choses magnifiquement simples et j'adore ce que je fais"
+},
+"skills": {
+  "title": "Mes Compétences",
+  "skillTitle": "Autres",
+  "workBtn": "Mon Travail"
+},
+"about": {
+  "title": "À propos de moi",
+  "subtitle": "J'habite a Antibes, dans les alpes-maritimes",
+  "p1": "Back in 2022, I decided to try my hand at creating a website and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today.",
+  "p2": "I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.",
+  "p3": "When I’m not at the computer, I’m usually cycling, scuba diving or hanging out with my wife and our two little monsters."
+},
+"work": {
+  "title": "Mon Travail",
+  "subtitle": "Une sélection de mes travaux réalisés"
+},
+"portfolioItem": {
+  "title": "Technologie utilisée"
+},
+"card": [
+  {
+    "id": "1",
+    "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/argent-bank.webp",
+    "title": "Argent Bank",
+    "cardDescription": "Creation of a complete and responsive web application for user authentication using React and Redux.",
+    "siteLink": "https://11-argent-bank-2.vercel.app",
+    "github": "https://github.com/Gieltie/11--Argent-Bank-2",
+    "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
+    "description": "This project consists of developing a complete and responsive web application for user authentication using React and Redux. The project starts with the static HTML and CSS provided for the home, login, and profile pages. The application offers the following features: users can visit the home page, log in to the system, log out, and access their profile information after successful login. The project is based on a Redux architecture to manage the overall state of the application. All necessary API routes have been prepared by the back-end team.",
+    "tags": [ 
+      "Sass",
+      "React", 
+      "React Router", 
+      "Axios", 
+      "Redux",
+      "MongoDB",
+      "Swagger",
+      "Green Code"
+    ]
+  },
+  {
+    "id": "2",
+    "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/kasa.webp",
+    "title": "Kasa",
+    "cardDescription": "Creation of a complete website for a rental agency using React and Sass.",
+    "siteLink": "https://kasa-ghofman.netlify.app",
+    "github": "https://github.com/Gieltie/08--kasa",
+    "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/kasa.webp",
+    "description": "Creation of a complete website for a rental agency using React.js, Sass and advanced features such as a carousel and display of owner profiles. This project provides an interactive and immersive user experience by allowing users to browse rental offers, view engaging images in carousels, and discover detailed owner profiles.",
+    "tags": [
+      "HTML5",
+      "CSS3", 
+      "Sass",
+      "React",
+      "React Router",
+      "API",
+      "Sass", 
+      "Node.js", 
+      "React", 
+      "Responsive Web Design",
+      "Figma",
+      "CSS Animations"
+    ]
+  },
+  {
+    "id": "3",
+    "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/sophie-bluel.webp",
+    "title": "Sophie Bluel",
+    "cardDescription": "Creation of an architect site with administrator management in JavaScript.",
+    "siteLink": "",
+    "github": "https://github.com/Gieltie/06--Portfolio-architecte-sophie-bluel",
+    "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/sophie-bluel.webp",
+    "description": "Creation of an architect site with administrator management in JavaScript. This project offers the architect the ability to add and remove their work via an API, facilitated by the use of Swagger. Additionally, the site is dynamically optimized to ensure a smooth user experience.",
+    "tags": [ 
+      "HTML5", 
+      "CSS3", 
+      "JavaScript", 
+      "Node.js",
+      "JWT",
+      "Swagger",
+      "Figma"
+    ]
+  },
+  {
+    "id": "4",
+    "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/oh-my-food.webp",
+    "title": "Oh My Food",
+    "cardDescription": "Creation of a presentation of luxury restaurants using HTML, Sass and animations.",
+    "siteLink": "https://ohmyfood-ghofman.netlify.app",
+    "github": "https://github.com/Gieltie/04--OhMyFood",
+    "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/oh-my-food.webp",
+    "description": "Created a presentation of luxury restaurants using HTML, Sass and animations. This project highlights the elegance and refined atmosphere of the establishments, thus offering an immersive visual experience.",
+    "tags": [ 
+      "HTML5", 
+      "CSS3",
+      "Sass", 
+      "Responsive Web Design", 
+      "CSS Animations"
+    ]
+  },
+  {
+    "id": "5",
+    "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/nina-carducci.webp",
+    "title": "Nina Carducci",
+    "cardDescription": "Creation of a photographer's site in HTML, CSS and JavaScript.",
+    "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/nina-carducci.webp",
+    "description": "Creation of a photographer's site in HTML, CSS and JavaScript, with particular attention paid to improving performance, accessibility and SEO. This project offers a smooth user experience, easy access for everyone and optimal visibility on search engines.",
+    "github": "https://github.com/Gieltie/09--nina-carducci",
+    "siteLink": "https://ninacarducci-ghofman.netlify.app",
+    "tags": [ 
+      "Web Optimisation", 
+      "SEO", 
+      "Rich Snippet", 
+      "Wave",
+      "Lighthouse",
+      "Web Accessibility",
+      "Wave"
+    ] 
+  },
+  {
+    "id": "6",
+    "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/742events.webp",
+    "title": "742 Events",
+    "cardDescription": "Completely debug and optimize the 724events website.",
+    "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/742events.webp",
+    "description": "724 events is a one-page website developed for the events agency 724 events. The aim of this project was to debug and finalize the website, which had been partially integrated by a previous developer. The site is now fully functional and ready for publication. The source code has been carefully revised to resolve all issues and bugs that were hampering the visitor experience. Unit tests have been implemented to guarantee code quality and site stability.",
+    "github": "https://github.com/Gieltie/10--742Events",
+    "siteLink": "https://742events-ghofman.netlify.app",
+    "tags": [ 
+      "Jest", 
+      "Debug", 
+      "React dev Tools", 
+      "Web Optimisation"
+    ] 
+  }
+]
+}

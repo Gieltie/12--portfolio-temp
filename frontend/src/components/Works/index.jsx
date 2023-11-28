@@ -1,8 +1,9 @@
 import Card from '../Card'
+import { useTranslation } from 'react-i18next';
+import projects from '../../locales/en/global.json'
 import './index.scss'
-import projects from '../../datas/projects.json'
 
-const cards = projects.map(({ title, cardDescription, github, siteLink, screenShot, id }, index) => (
+const cards = projects.card.map(({ title, cardDescription, github, siteLink, screenShot, id }, index) => (
   <Card
     screenShot={screenShot}
     title={title}
@@ -15,10 +16,12 @@ const cards = projects.map(({ title, cardDescription, github, siteLink, screenSh
 ));
 
 export default function Work() {
+  const { t } = useTranslation("global")
+
   return (
     <section className="my-work" id="work">
-      <h2 className="my-work__title">My Work</h2>
-      <p className="my-work__subtitle">A selection of my range of work</p>
+      <h2 className="my-work__title">{t("work.title")}</h2>
+      <p className="my-work__subtitle">{t("work.subtitle")}</p>
       <div className="my-work__projects">
         {cards}
       </div>

@@ -1,5 +1,5 @@
 import { LuSun, LuMoon } from "react-icons/lu";
-import { ThemeContext } from "../../contexts/theme-context";
+import { ThemeContext } from "../../../contexts/theme-context";
 import { useContext } from "react";
 
 import './index.scss'
