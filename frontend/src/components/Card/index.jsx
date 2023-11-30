@@ -16,7 +16,7 @@ const Card = ({ screenShot, title,  id, cardDescription, github, siteLink }) => 
       </div>
       <div className="card__second">
         <h3 className="card__second--title">{title}</h3>
-        <p className="card__second--description">{t(cardDescription)}</p>
+        <p className="card__second--description">{cardDescription}</p>
         <span className="card__second--links">
           {siteLink ? 
           <Link 

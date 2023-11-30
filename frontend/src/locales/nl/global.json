@@ -27,5 +27,51 @@
   },
   "portfolioItem": {
     "title": "Gebruikte technologieën"
-  }
+  },
+  "cards": [
+    {
+      "id": "1",
+      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/argent-bank.webp",
+      "title": "Argent Bank",
+      "cardDescription": "francais",
+      "siteLink": "https://11-argent-bank-2.vercel.app",
+      "github": "https://github.com/Gieltie/11--Argent-Bank-2",
+      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
+      "description": "francais",
+      "tags": [ 
+        "Sass",
+        "React", 
+        "React Router", 
+        "Axios", 
+        "Redux",
+        "MongoDB",
+        "Swagger",
+        "Green Code"
+      ]
+    },
+    {
+      "id": "2",
+      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/kasa.webp",
+      "title": "Kasa",
+      "cardDescription": "nederlands",
+      "siteLink": "https://kasa-ghofman.netlify.app",
+      "github": "https://github.com/Gieltie/08--kasa",
+      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/kasa.webp",
+      "description": "nederlands",
+      "tags": [
+        "HTML5",
+        "CSS3", 
+        "Sass",
+        "React",
+        "React Router",
+        "API",
+        "Sass", 
+        "Node.js", 
+        "React", 
+        "Responsive Web Design",
+        "Figma",
+        "CSS Animations"
+      ]
+    }
+  ]
 }

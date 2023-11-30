@@ -8,7 +8,7 @@
   box-shadow: $shadow-btn;
   transition: background-color .5s ease-in-out;
   @include themify($themes){
-    background-color: themed('text');
+    background-color: themed('cardBackground');
   }
   &__first {
     padding: 0.4em;
@@ -40,7 +40,7 @@
       height .5s ease-in-out,
       text-shadow 1500ms ease-in-out;
     @include themify($themes){
-    background-color: themed('text');
+    background-color: themed('cardBackground');
     color: themed('background');
     text-shadow: themed('primary') 1px 0 3px;
     }
@@ -58,9 +58,8 @@
     &--links > a {
       margin: 0.5em 0.5em;
       font-size: 1.5em;
-      
       @include themify($themes) {
-        color: themed('primary');
+        color: themed('background');
       }
     }
   }

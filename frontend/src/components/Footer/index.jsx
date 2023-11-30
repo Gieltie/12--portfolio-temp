@@ -14,6 +14,7 @@ export default function Footer() {
           <Link
             to="https://www.linkedin.com/in/gaël-hofman-bb4723243/"
             className="social-list__link"
+            target="_blank"
           >
             <FaLinkedin />
           </Link>
@@ -22,14 +23,16 @@ export default function Footer() {
           <Link
             to="https://www.facebook.com/gael.hofman/"
             className="social-list__link"
+            target="_blank"
           >
             <FaFacebook />
           </Link>
         </li>
         <li className="social-list__item">
           <Link
-            to="https://github.com/Gieltie/hofman.github.io"
+            to="https://github.com/gieltie"
             className="social-list__link"
+            target="_blank"
           >
             <FaGithub />
           </Link>

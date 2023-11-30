@@ -27,5 +27,51 @@
   },
   "portfolioItem": {
     "title": "Technologie utilisée"
-  }
+  },
+  "cards": [
+    {
+      "id": "1",
+      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/argent-bank.webp",
+      "title": "Argent Bank",
+      "cardDescription": "Creation of a complete and responsive web application for user authentication using React and Redux.",
+      "siteLink": "https://11-argent-bank-2.vercel.app",
+      "github": "https://github.com/Gieltie/11--Argent-Bank-2",
+      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
+      "description": "This project consists of developing a complete and responsive web application for user authentication using React and Redux. The project starts with the static HTML and CSS provided for the home, login, and profile pages. The application offers the following features: users can visit the home page, log in to the system, log out, and access their profile information after successful login. The project is based on a Redux architecture to manage the overall state of the application. All necessary API routes have been prepared by the back-end team.",
+      "tags": [ 
+        "Sass",
+        "React", 
+        "React Router", 
+        "Axios", 
+        "Redux",
+        "MongoDB",
+        "Swagger",
+        "Green Code"
+      ]
+    },
+    {
+      "id": "2",
+      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/kasa.webp",
+      "title": "Kasa",
+      "cardDescription": "Creation of a complete website for a rental agency using React and Sass.",
+      "siteLink": "https://kasa-ghofman.netlify.app",
+      "github": "https://github.com/Gieltie/08--kasa",
+      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/kasa.webp",
+      "description": "Creation of a complete website for a rental agency using React.js, Sass and advanced features such as a carousel and display of owner profiles. This project provides an interactive and immersive user experience by allowing users to browse rental offers, view engaging images in carousels, and discover detailed owner profiles.",
+      "tags": [
+        "HTML5",
+        "CSS3", 
+        "Sass",
+        "React",
+        "React Router",
+        "API",
+        "Sass", 
+        "Node.js", 
+        "React", 
+        "Responsive Web Design",
+        "Figma",
+        "CSS Animations"
+      ]
+    }
+  ]
 }

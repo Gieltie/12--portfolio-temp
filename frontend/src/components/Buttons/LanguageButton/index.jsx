@@ -6,9 +6,9 @@ export default function LanguageButton() {
 
   return (
     <div className='language-btn'>
-      <button className='btn' onClick={() => i18n.changeLanguage("en")}>EN</button>
-      <button className='btn' onClick={() => i18n.changeLanguage("fr")}>FR</button>
-      <button className='btn' onClick={() => i18n.changeLanguage("nl")}>NL</button>
+      <div className='btn' onClick={() => i18n.changeLanguage("en")}>EN</div>
+      <div className='btn' onClick={() => i18n.changeLanguage("fr")}>FR</div>
+      <div className='btn' onClick={() => i18n.changeLanguage("nl")}>NL</div>
     </div>
   )
 }
