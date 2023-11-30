@@ -11,7 +11,7 @@
   @include themify($themes) {
     background-color: themed('primary');
     color: themed('secondary');
-    text-shadow: themed('text') 1px 0 5px;
+    text-shadow: themed('text') 2px 2px 3px;
   }
   &__subtitle {
     font-size: $font-size-body;

@@ -50,7 +50,8 @@
     margin-top: 1em;
     padding: 1.5em 3em;
     border-radius: 37% 63% 39% 61% / 82% 31% 69% 18%;
-    transition: background-color 500ms ease-in-out, color 1500ms ease-in-out;
+    transition: background-color 500ms ease-in-out, 
+                color 1500ms ease-in-out;
     @include themify($themes) {
       background-color: themed('accent');
     }
@@ -60,7 +61,7 @@
                   text-shadow 1500ms ease-in-out;
       @include themify ($themes) {
         color: themed('text');
-        text-shadow: themed('background') 1px 0 5px;
+        text-shadow: themed('secondary') 1px 1px 2px;
       }
     }
     &--tag {
@@ -79,7 +80,7 @@
         @include themify($themes) {
           background-color: themed('secondary');
           color: themed('text');
-          text-shadow: themed('primary') 1px 0 5px;
+          text-shadow: themed('secondary') 1px 1px 2px;
         }
       }
     }
