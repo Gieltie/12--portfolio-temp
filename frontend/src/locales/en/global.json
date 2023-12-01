@@ -11,56 +11,68 @@
   },
   "skills": {
     "title": "My Skills",
-    "skillTitle": "Other stuff",
+    "skillTitle": "Other",
     "workBtn": "My Work"
   },
   "about": {
     "title": "About Me",
     "subtitle": "I'm based in Antibes, France",
-    "p1": "Back in 2022, I decided to try my hand at creating a website and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today.",
-    "p2": "I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.",
-    "p3": "When I’m not at the computer, I’m usually cycling, scuba diving or hanging out with my wife and our two little monsters."
+    "p1": "In 2022, I decided to take a chance by creating a website, and I fell headfirst into the rabbit hole of coding and web development. I'm making rapid progress in learning these new languages.",
+    "p2": "I am quietly confident, naturally curious, and constantly improving my skills by solving one design problem at a time.",
+    "p3": "When I'm not in front of the computer, I usually bike, scuba dive, or spend time with my wife and our two little monsters."
   },
   "work": {
     "title": "My Work",
-    "subtitle": "A selection of my range of work"
+    "subtitle": "A selection of my completed projects"
   },
   "portfolio": {
-    "client": "Customer",
+    "client": "Client",
     "presentation": "Presentation",
     "mission": "Mission",
-    "title": "Technologies used"
+    "title": "Technology used"
   },
   "cards": [
     {
       "id": "0",
-      "cardDescription": "Creation of a complete and responsive web application for user authentication using React and Redux.",
-      "description": "This project consists of developing a complete and responsive web application for user authentication using React and Redux. The project starts with the static HTML and CSS provided for the home, login, and profile pages. The application offers the following features: users can visit the home page, log in to the system, log out, and access their profile information after successful login. The project is based on a Redux architecture to manage the overall state of the application. All necessary API routes have been prepared by the back-end team."
+      "description": "Innovative online bank, uses React, Redux, and Green Code practices.",
+      "client": "Argent Bank, a new online bank, aims to break into the banking sector by offering an innovative experience to users.",
+      "presentation": "Avery Moreau, CTO, oversees the creation of a responsive user dashboard with React and Redux in collaboration with project manager Mila. The first phase focuses on authentication, while the second explores transactions.",
+      "mission": "As a front-end developer, my mission was to create a complete and responsive web application using the provided HTML/CSS templates. Integration followed Green Code best practices, with a focus on image optimization and the creation of reusable components. Close collaboration with the team and contribution to API route modeling for transaction management were also crucial."
     },
     {
       "id": "1",
-      "cardDescription": "Creation of a website for a rental agency using React and Sass.",
-      "description": "Creation of a complete website for a rental agency using React.js, Sass and advanced features such as a carousel and display of owner profiles. This project provides an interactive and immersive user experience by allowing users to browse rental offers, view engaging images in carousels, and discover detailed owner profiles."
+      "description": "Front-end redesign. Migration from ASP.NET to NodeJS/React, creation of components, Figma mockups.",
+      "client": "Kasa, a major player in peer-to-peer apartment rentals in France.",
+      "presentation": "The project involves a total redesign of the existing web platform, developed over 10 years ago in ASP.NET. Under the direction of Laura, the CTO, the goal is to migrate to a modern JavaScript stack, with NodeJS for the back-end and React for the front-end. Freelance designer Paul created detailed Figma mockups, accompanied by prototypes, to guide the development process.",
+      "mission": "As a front-end developer, I created all React components, implemented routes with React Router, and ensured the site's responsiveness. In the temporary absence of a complete back-end team, I used data extracted from the last 20 housing listings provided in a JSON file. The main objective was to provide a modern and functional user experience while adhering to Kasa's code quality standards."
     },
     {
       "id": "2",
-      "cardDescription": "Creation of an architect site with administrator management in JavaScript.",
-      "description": "Creation of an architect site with administrator management in JavaScript. This project offers the architect the ability to add and remove their work via an API, facilitated by the use of Swagger. Additionally, the site is dynamically optimized to ensure a smooth user experience."
+      "description": "Key features: filtering, secure login (JWT), project management modal. Use of JavaScript, API, Kanban management.",
+      "client": "Sophie Bluel, renowned interior architect, is the client for the portfolio project.",
+      "presentation": "The project involves developing an interactive portfolio site for Sophie Bluel. The presentation page will allow visitors to discover her work with filtering options by category. The administrator (Sophie) will have access to a secure login page to manage her portfolio through an intuitive modal for adding/removing projects.",
+      "mission": "My mission as a front-end developer included creating the presentation page with filtering features, developing the administrator's secure login page using JWT for authentication, and designing a modal for the architect to add or remove projects. I used JavaScript to dynamically generate elements by communicating with an API, all while following agile project management through a detailed Kanban board."
     },
     {
       "id": "3",
-      "cardDescription": "Creation of a presentation of luxury restaurants using HTML, Sass and animations.",
-      "description": "Created a presentation of luxury restaurants using HTML, Sass and animations. This project highlights the elegance and refined atmosphere of the establishments, thus offering an immersive visual experience."
+      "description": "Innovative Restaurant Platform in Paris, JavaScript, Responsive Design, Figma, Mobile-First Integration.",
+      "client": "Ohmyfood, an ambitious startup present in New York, seeking to establish itself in the Paris restaurant market.",
+      "presentation": "Development of an innovative restaurant platform offering customers the ability to view menus from gourmet restaurants, compose their meals, and make reservations. The site stands out with its 'mobile-first' approach, responsive design, and polished animations.",
+      "mission": "As a junior developer at Ohmyfood, my mission was to bring the project to life by integrating mobile and desktop mockups while adhering to responsive design standards. Tasks included using technologies such as HTML5, CSS3, and JavaScript, with particular attention to the details of animations defined in the Figma prototype. The goal was to create a smooth and innovative user experience, meeting the needs of both customers and partner restaurants."
     },
     {
       "id": "4",
-      "cardDescription": "Creation of a photographer's site in HTML, CSS and JavaScript.",
-      "description": "Creation of a photographer's site in HTML, CSS and JavaScript, with particular attention paid to improving performance, accessibility and SEO. This project offers a smooth user experience, easy access for everyone and optimal visibility on search engines."
+      "description": "Performance improvement, SEO optimization, local SEO, adding social media metas, accessibility.",
+      "client": "Nina Carducci, specializing in portrait and event photography.",
+      "presentation": "The project involves the complete optimization of Nina Carducci's website (ninacarducci.github.io). Through a holistic approach, the focus is on improving performance, SEO optimization, implementing local SEO (Schema.org), adding metas for social media, and making adjustments to enhance accessibility.",
+      "mission": "Optimizing the site to increase online visibility, attract new clients, and offer an optimal user experience. Actions include code redesign, integration of structured data, adding social metadata, and adjustments to improve accessibility. Delivery of a detailed report on the actions taken and their impact."
     },
     {
       "id": "5",
-      "cardDescription": "Completely debug and optimize the 724events website.",
-      "description": "724 events is a one-page website developed for the events agency 724 events. The aim of this project was to debug and finalize the website, which had been partially integrated by a previous developer. The site is now fully functional and ready for publication. The source code has been carefully revised to resolve all issues and bugs that were hampering the visitor experience. Unit tests have been implemented to guarantee code quality and site stability."
+      "description": "Debugging and testing mission for the showcase version of the 724events agency website.",
+      "client": "724events, an event agency.",
+      "presentation": "The project involves finalizing a one-page website for 724events. The design has been approved, but bugs remain, hindering the visitor experience. The urgency of the request comes from marketing director Jean-Baptiste, who wants to minimize delays. I received the site code and a partially completed recipe book from the previous developer.",
+      "mission": "My mission was to optimize the 724events website by conducting thorough debugging. I started with a deep analysis of the existing source code, targeting technical issues that could impact the site's performance. My main goal was to ensure the site's smoothness and responsiveness for visitors. To achieve this, I implemented unit tests to scrutinize each component of the site. React Dev Tools played a crucial role in analyzing and optimizing React code, allowing me to effectively target areas that needed improvement. Simultaneously, I finalized the recipe book by developing detailed scenarios to verify the compliance of each site functionality. This included navigation, form, performance tests, and many other aspects. My work was crucial in ensuring that the site meets the highest quality standards, ensuring an optimal user experience."
     }
   ]
 }
