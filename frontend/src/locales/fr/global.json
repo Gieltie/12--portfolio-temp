@@ -49,9 +49,9 @@
     {
       "id": "2",
       "description": "Fonctionnalités clés : filtrage, connexion sécurisée (JWT), modale de gestion des projets. Utilisation de JavaScript, API, gestion Kanban.",
-      "client": "francais.",
-      "presentation": "",
-      "mission": ""
+      "client": "Sophie Bluel, architecte d'intérieur renommée, est le client pour le projet du portfolio.",
+      "presentation": "Le projet consiste à développer un site portfolio interactif pour Sophie Bluel. La page de présentation permettra aux visiteurs de découvrir ses réalisations avec des options de filtrage par catégorie. L'administratrice (Sophie) aura accès à une page de connexion sécurisée pour gérer son portfolio à travers une modale intuitive pour ajouter/supprimer des projets.",
+      "mission": "Ma mission en tant que développeur front-end a inclus la création de la page de présentation avec des fonctionnalités de filtrage, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT pour l'authentification, et la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, tout en suivant une gestion agile du projet via un tableau Kanban détaillé."
     },
     {
       "id": "3",
