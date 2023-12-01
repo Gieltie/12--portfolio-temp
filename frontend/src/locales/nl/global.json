@@ -25,53 +25,42 @@
     "title": "Mijn Projecten",
     "subtitle": "Een selectie van mijn projecten"
   },
-  "portfolioItem": {
+  "portfolio": {
+    "client": "Klant",
+    "presentation": "Presentatie",
+    "mission": "Missie",
     "title": "Gebruikte technologieën"
   },
   "cards": [
     {
+      "id": "0",
+      "cardDescription": "Creation of a complete and responsive web application for user authentication using React and Redux.",
+      "description": "nederlands."
+    },
+    {
       "id": "1",
-      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/argent-bank.webp",
-      "title": "Argent Bank",
-      "cardDescription": "francais",
-      "siteLink": "https://11-argent-bank-2.vercel.app",
-      "github": "https://github.com/Gieltie/11--Argent-Bank-2",
-      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
-      "description": "francais",
-      "tags": [ 
-        "Sass",
-        "React", 
-        "React Router", 
-        "Axios", 
-        "Redux",
-        "MongoDB",
-        "Swagger",
-        "Green Code"
-      ]
+      "cardDescription": "Realisatie van een website voor een vakantiehuisverhuurder met behulp van React en Sass.",
+      "description": "nederlands."
     },
     {
       "id": "2",
-      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/kasa.webp",
-      "title": "Kasa",
-      "cardDescription": "nederlands",
-      "siteLink": "https://kasa-ghofman.netlify.app",
-      "github": "https://github.com/Gieltie/08--kasa",
-      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/kasa.webp",
-      "description": "nederlands",
-      "tags": [
-        "HTML5",
-        "CSS3", 
-        "Sass",
-        "React",
-        "React Router",
-        "API",
-        "Sass", 
-        "Node.js", 
-        "React", 
-        "Responsive Web Design",
-        "Figma",
-        "CSS Animations"
-      ]
+      "cardDescription": "id3 nederlands",
+      "description": "nederlands."
+    },
+    {
+      "id": "3",
+      "cardDescription": "id4 nederlands",
+      "description": "nederlands."
+    },
+    {
+      "id": "4",
+      "cardDescription": "id5 nederlands",
+      "description": "nederlands."
+    },
+    {
+      "id": "5",
+      "cardDescription": "id6 nederlands",
+      "description": "nederlands."
     }
   ]
 }

@@ -25,53 +25,42 @@
     "title": "My Work",
     "subtitle": "A selection of my range of work"
   },
-  "portfolioItem": {
+  "portfolio": {
+    "client": "Customer",
+    "presentation": "Presentation",
+    "mission": "Mission",
     "title": "Technologies used"
   },
   "cards": [
     {
+      "id": "0",
+      "cardDescription": "Creation of a complete and responsive web application for user authentication using React and Redux.",
+      "description": "This project consists of developing a complete and responsive web application for user authentication using React and Redux. The project starts with the static HTML and CSS provided for the home, login, and profile pages. The application offers the following features: users can visit the home page, log in to the system, log out, and access their profile information after successful login. The project is based on a Redux architecture to manage the overall state of the application. All necessary API routes have been prepared by the back-end team."
+    },
+    {
       "id": "1",
-      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/argent-bank.webp",
-      "title": "Argent Bank",
-      "cardDescription": "anglais",
-      "siteLink": "https://11-argent-bank-2.vercel.app",
-      "github": "https://github.com/Gieltie/11--Argent-Bank-2",
-      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
-      "description": "anglais.",
-      "tags": [ 
-        "Sass",
-        "React", 
-        "React Router", 
-        "Axios", 
-        "Redux",
-        "MongoDB",
-        "Swagger",
-        "Green Code"
-      ]
+      "cardDescription": "Creation of a website for a rental agency using React and Sass.",
+      "description": "Creation of a complete website for a rental agency using React.js, Sass and advanced features such as a carousel and display of owner profiles. This project provides an interactive and immersive user experience by allowing users to browse rental offers, view engaging images in carousels, and discover detailed owner profiles."
     },
     {
       "id": "2",
-      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/kasa.webp",
-      "title": "Kasa",
-      "cardDescription": "Creation of a complete website for a rental agency using React and Sass.",
-      "siteLink": "https://kasa-ghofman.netlify.app",
-      "github": "https://github.com/Gieltie/08--kasa",
-      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/kasa.webp",
-      "description": "Creation of a complete website for a rental agency using React.js, Sass and advanced features such as a carousel and display of owner profiles. This project provides an interactive and immersive user experience by allowing users to browse rental offers, view engaging images in carousels, and discover detailed owner profiles.",
-      "tags": [
-        "HTML5",
-        "CSS3", 
-        "Sass",
-        "React",
-        "React Router",
-        "API",
-        "Sass", 
-        "Node.js", 
-        "React", 
-        "Responsive Web Design",
-        "Figma",
-        "CSS Animations"
-      ]
+      "cardDescription": "Creation of an architect site with administrator management in JavaScript.",
+      "description": "Creation of an architect site with administrator management in JavaScript. This project offers the architect the ability to add and remove their work via an API, facilitated by the use of Swagger. Additionally, the site is dynamically optimized to ensure a smooth user experience."
+    },
+    {
+      "id": "3",
+      "cardDescription": "Creation of a presentation of luxury restaurants using HTML, Sass and animations.",
+      "description": "Created a presentation of luxury restaurants using HTML, Sass and animations. This project highlights the elegance and refined atmosphere of the establishments, thus offering an immersive visual experience."
+    },
+    {
+      "id": "4",
+      "cardDescription": "Creation of a photographer's site in HTML, CSS and JavaScript.",
+      "description": "Creation of a photographer's site in HTML, CSS and JavaScript, with particular attention paid to improving performance, accessibility and SEO. This project offers a smooth user experience, easy access for everyone and optimal visibility on search engines."
+    },
+    {
+      "id": "5",
+      "cardDescription": "Completely debug and optimize the 724events website.",
+      "description": "724 events is a one-page website developed for the events agency 724 events. The aim of this project was to debug and finalize the website, which had been partially integrated by a previous developer. The site is now fully functional and ready for publication. The source code has been carefully revised to resolve all issues and bugs that were hampering the visitor experience. Unit tests have been implemented to guarantee code quality and site stability."
     }
   ]
 }

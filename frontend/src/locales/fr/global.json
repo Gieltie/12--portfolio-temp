@@ -25,53 +25,54 @@
     "title": "Mon Travail",
     "subtitle": "Une sélection de mes travaux réalisés"
   },
-  "portfolioItem": {
+  "portfolio": {
+    "client": "Client",
+    "presentation": "Présentation",
+    "mission": "Mission",
     "title": "Technologie utilisée"
   },
   "cards": [
     {
+      "id": "0",
+      "description": "Banque en ligne innovante, utilise React, Redux, et des pratiques de Green Code.",
+      "client": "Argent Bank, une nouvelle banque en ligne, cherche à percer dans le secteur bancaire en offrant une expérience innovante aux utilisateurs.",
+      "presentation": "Avery Moreau, CTO, supervise la création d'un tableau de bord utilisateur réactif avec React et Redux en collaboration avec le chef de projet Mila. La première phase se focalise sur l'authentification, tandis que la seconde explore les transactions.",
+      "mission": "En tant que développeur front-end, ma mission a consisté à créer une application web complète et responsive en utilisant les modèles HTML/CSS fournis. L'intégration a suivi les bonnes pratiques de Green Code, avec une attention particulière à l'optimisation des images et à la création de composants réutilisables. La collaboration étroite avec l'équipe et la contribution à la modélisation des routes API pour la gestion des transactions ont également été essentielles."
+    },
+    {
       "id": "1",
-      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/argent-bank.webp",
-      "title": "Argent Bank",
-      "cardDescription": "Creation of a complete and responsive web application for user authentication using React and Redux.",
-      "siteLink": "https://11-argent-bank-2.vercel.app",
-      "github": "https://github.com/Gieltie/11--Argent-Bank-2",
-      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/argent-bank.webp",
-      "description": "This project consists of developing a complete and responsive web application for user authentication using React and Redux. The project starts with the static HTML and CSS provided for the home, login, and profile pages. The application offers the following features: users can visit the home page, log in to the system, log out, and access their profile information after successful login. The project is based on a Redux architecture to manage the overall state of the application. All necessary API routes have been prepared by the back-end team.",
-      "tags": [ 
-        "Sass",
-        "React", 
-        "React Router", 
-        "Axios", 
-        "Redux",
-        "MongoDB",
-        "Swagger",
-        "Green Code"
-      ]
+      "description": "Refonte front-end. Migration ASP.NET à NodeJS/React, création de composants, maquettes Figma,",
+      "client": "Kasa, une entreprise majeure dans la location d'appartements entre particuliers en France.",
+      "presentation": "Le projet consiste en une refonte totale de la plateforme web existante, développée il y a plus de 10 ans en ASP.NET. Sous la direction de Laura, la CTO, l'objectif est de migrer vers une stack moderne en JavaScript, avec NodeJS pour le back-end et React pour le front-end. Le designer freelance, Paul, a élaboré des maquettes détaillées sur Figma, accompagnées de prototypes, pour guider le processus de développement.",
+      "mission": "En tant que développeur front-end, j'ai créé tous les composants React, implémenté les routes avec React Router, et assuré la responsivité du site. En l'absence temporaire d'une équipe complète pour le back-end, j'ai utilisé des données extraites des 20 dernières annonces de logements fournies dans un fichier JSON. L'objectif principal était de fournir une expérience utilisateur moderne et fonctionnelle, tout en respectant les normes de qualité de code de Kasa."
     },
     {
       "id": "2",
-      "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/kasa.webp",
-      "title": "Kasa",
-      "cardDescription": "Creation of a complete website for a rental agency using React and Sass.",
-      "siteLink": "https://kasa-ghofman.netlify.app",
-      "github": "https://github.com/Gieltie/08--kasa",
-      "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/kasa.webp",
-      "description": "Creation of a complete website for a rental agency using React.js, Sass and advanced features such as a carousel and display of owner profiles. This project provides an interactive and immersive user experience by allowing users to browse rental offers, view engaging images in carousels, and discover detailed owner profiles.",
-      "tags": [
-        "HTML5",
-        "CSS3", 
-        "Sass",
-        "React",
-        "React Router",
-        "API",
-        "Sass", 
-        "Node.js", 
-        "React", 
-        "Responsive Web Design",
-        "Figma",
-        "CSS Animations"
-      ]
+      "description": "Fonctionnalités clés : filtrage, connexion sécurisée (JWT), modale de gestion des projets. Utilisation de JavaScript, API, gestion Kanban.",
+      "client": "francais.",
+      "presentation": "",
+      "mission": ""
+    },
+    {
+      "id": "3",
+      "description": "Plateforme de Restauration Innovante à Paris, JavaScript, Responsive Design, Figma, Intégration Mobile First.",
+      "client": "Ohmyfood, une startup ambitieuse présente à New York et cherchant à s'imposer sur le marché de la restauration à Paris..",
+      "presentation": "Développement d'une plateforme de restauration innovante offrant aux clients la possibilité de consulter les menus de restaurants gastronomiques, composer leur repas, et effectuer des réservations. Le site se distingue par son approche en 'mobile first', sa conception responsive et des animations soignées.",
+      "mission": "En tant que développeur junior chez Ohmyfood, ma mission était de concrétiser le projet en intégrant les maquettes mobile et desktop, en respectant les normes de responsive design. Les tâches comprenaient l'utilisation de technologies telles que HTML5, CSS3, et JavaScript, avec une attention particulière aux détails des animations définies dans le prototype Figma. L'objectif était de créer une expérience utilisateur fluide et novatrice, répondant aux besoins des clients et des restaurateurs partenaires."
+    },
+    {
+      "id": "4",
+      "description": "Amélioration des performances, optimisation SEO, référencement local, ajout de métas pour les réseaux sociaux, l'accessibilité.",
+      "client": "Nina Carducci, photographe spécialisée dans les portraits et l'événementiel.",
+      "presentation": "Le projet consiste en l'optimisation complète du site web de Nina Carducci (ninacarducci.github.io). À travers une approche holistique, le focus est mis sur l'amélioration des performances, l'optimisation SEO, la mise en place du référencement local (Schema.org), l'ajout de métas pour les réseaux sociaux, et des ajustements visant à renforcer l'accessibilité.",
+      "mission": "Optimiser le site pour accroître sa visibilité en ligne, attirer de nouveaux clients, et offrir une expérience utilisateur optimale. Les actions comprennent la refonte du code, l'intégration de données structurées, l'ajout de métadonnées sociales, et des ajustements pour améliorer l'accessibilité. Livraison d'un rapport détaillé sur les actions effectuées et leurs impacts."
+    },
+    {
+      "id": "5",
+      "description": "Mission de débogage et de test pour la version vitrine du site de l'agence évènementielle 724events.",
+      "client": "724events, une agence évènementielle.",
+      "presentation": "Le projet consiste en la finalisation d'un site web one-page pour 724events. Le design a été approuvé, mais des bugs subsistent, entravant l'expérience des visiteurs. L'urgence de la demande émane du directeur marketing, Jean-Baptiste, qui souhaite minimiser les retards. J'ai reçu le code du site ainsi qu'un cahier de recette partiellement complété par le développeur précédent.",
+      "mission": "Ma mission a consisté à optimiser le site web de 724events en effectuant un débogage approfondi. J'ai débuté par une analyse approfondie du code source existant, ciblant les problèmes techniques susceptibles d'entraver les performances du site. Mon objectif principal était d'assurer la fluidité et la réactivité du site pour les visiteurs. Pour atteindre cet objectif, j'ai mis en place des tests unitaires pour scruter chaque composant du site. Les React Dev Tools ont joué un rôle crucial dans l'analyse et l'optimisation du code React, me permettant de cibler efficacement les zones nécessitant des améliorations. En parallèle, j'ai finalisé le cahier de recette en élaborant des scénarios détaillés pour vérifier la conformité de chaque fonctionnalité du site. Cela englobait des tests de navigation, de formulaire, de performance, et bien d'autres aspects. Mon travail a été déterminant pour garantir que le site répond aux normes de qualité les plus élevées, assurant ainsi une expérience utilisateur optimale."
     }
   ]
 }
