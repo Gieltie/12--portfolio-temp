@@ -51,6 +51,7 @@
   @media (min-width: 800px) {
   }
   &__title {
+    text-align: left;
     transition: color 1500ms ease-in-out,
                 text-shadow 500ms ease-in-out;
     @include themify($themes) {

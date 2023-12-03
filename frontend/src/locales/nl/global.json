@@ -3,7 +3,7 @@
     "link1": "Home",
     "link2": "Mijn Skills",
     "link3": "Over Mijzelf",
-    "link4": "Mijn Werk"
+    "link4": "Mijn Projecten"
   },
   "intro": {
     "title": "Hoi, Ik ben Gaël",
@@ -12,7 +12,7 @@
   "skills": {
     "title": "Mijn Skills",
     "skillTitle": "Andere dingen",
-    "workBtn": "Mijn Werk"
+    "workBtn": "Projecten"
   },
   "about": {
     "title": "Over Mijzelf",
@@ -22,8 +22,8 @@
     "p3": "Als ik niet voor de computer zit, ga ik meestal fietsen, duiken of breng ik tijd door met mijn vrouw en onze twee kleine boefjes."
   },
   "work": {
-    "title": "Mijn Werk",
-    "subtitle": "Een selectie van mijn voltooide projecten"
+    "title": "Mijn Projecten",
+    "subtitle": "Een selectie van mijn voltooide opdrachten"
   },
   "portfolio": {
     "client": "Klant",

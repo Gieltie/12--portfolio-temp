@@ -3,16 +3,16 @@
     "link1": "Accueil",
     "link2": "Mes Compétences",
     "link3": "À propos de moi",
-    "link4": "Mon Travail"
+    "link4": "Mes Projets"
   },
   "intro": {
     "title": "Salut, je suis Gaël",
-    "subtitle": "Je code des choses magnifiquement simples et j'adore ce que je fais"
+    "subtitle": "Je code des jolies choses et j'adore ce que je fais"
   },
   "skills": {
     "title": "Mes Compétences",
     "skillTitle": "Autres",
-    "workBtn": "Mon Travail"
+    "workBtn": "Projets"
   },
   "about": {
     "title": "À propos de moi",
@@ -22,7 +22,7 @@
     "p3": "Quand je ne suis pas devant l'ordinateur, je fais généralement du vélo, de la plongée sous-marine ou je passe du temps avec ma femme et nos deux petits monstres."
   },
   "work": {
-    "title": "Mon Travail",
+    "title": "Mes Projets",
     "subtitle": "Une sélection de mes travaux réalisés"
   },
   "portfolio": {
