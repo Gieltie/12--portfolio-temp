@@ -73,6 +73,20 @@
       "client": "724events, an event agency.",
       "presentation": "The project involves finalizing a one-page website for 724events. The design has been approved, but bugs remain, hindering the visitor experience. The urgency of the request comes from marketing director Jean-Baptiste, who wants to minimize delays. I received the site code and a partially completed recipe book from the previous developer.",
       "mission": "My mission was to optimize the 724events website by conducting thorough debugging. I started with a deep analysis of the existing source code, targeting technical issues that could impact the site's performance. My main goal was to ensure the site's smoothness and responsiveness for visitors. To achieve this, I implemented unit tests to scrutinize each component of the site. React Dev Tools played a crucial role in analyzing and optimizing React code, allowing me to effectively target areas that needed improvement. Simultaneously, I finalized the recipe book by developing detailed scenarios to verify the compliance of each site functionality. This included navigation, form, performance tests, and many other aspects. My work was crucial in ensuring that the site meets the highest quality standards, ensuring an optimal user experience."
+    },
+    {
+      "id": "6",
+      "description": "React, Axios, and API integration, featuring OpenWeatherMap and Unsplash.",
+      "client": "Personal project.",
+      "presentation": "Experience real-time weather updates with Weather Hofman. This sleek and user-friendly weather application provides beautiful city images to set the mood, along with high and low temperatures, and sunrise and sunset times. Built with React, Axios, and integrating OpenWeatherMap API and Unsplash API, Hofman Weather is your app for staying weather-ready.",
+      "mission": "Embarked on a solo journey to create a project from the ground up, demonstrating my end-to-end development skills. This project showcases my ability to conceptualize, plan, and execute a complete solution independently. From ideation to deployment, every line of code reflects a commitment to innovation, problem-solving, and a passion for delivering high-quality results."
+    },
+    {
+      "id": "7",
+      "description": "Built with Vite-React for speed and Firebase for instant updates",
+      "client": "Personal project.",
+      "presentation": "This app seamlessly integrates real-time communication with a robust authentication system, offering users a secure and engaging space to connect. With a modern and intuitive user interface, the app ensures a smooth and enjoyable chat experience. Leveraging the power of React for a responsive front end and Firebase for authentication and CRUD operations, this project showcases my proficiency in front-end development and my ability to create dynamic, user-centric applications.",
+      "mission": "My goal with this project is to provide users with a platform where they can engage in real-time conversations effortlessly while ensuring their privacy and security through Firebase authentication. This project not only demonstrates technical expertise but also reflects my commitment to building applications that enhance user experiences, promote connectivity, and adhere to the highest standards of functionality and reliability. As I continue to iterate and improve upon this project, my mission remains focused on creating digital environments that bring people together in a positive and enriching way."
     }
   ]
 }

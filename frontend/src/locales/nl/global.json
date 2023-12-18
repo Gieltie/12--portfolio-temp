@@ -73,6 +73,20 @@
       "client": "724events, een evenementenbureau.",
       "presentation": "Het project omvat het voltooien van een one-page website voor 724events. Het ontwerp is goedgekeurd, maar er zijn nog bugs die het bezoekerservaring belemmeren. De urgentie van het verzoek komt van marketingdirecteur Jean-Baptiste, die de vertragingen wil minimaliseren. Ik kreeg de code van de site en een gedeeltelijk ingevuld receptenboek van de vorige ontwikkelaar.",
       "mission": "Mijn missie was om de website van 724events te optimaliseren door grondig te debuggen. Ik begon met een diepgaande analyse van de bestaande broncode, gericht op technische problemen die de prestaties van de site zouden kunnen beïnvloeden. Mijn belangrijkste doel was om de soepelheid en responsiviteit van de site voor bezoekers te waarborgen. Om dit te bereiken, voerde ik unit-tests uit om elk onderdeel van de site te onderzoeken. React Dev Tools speelden een cruciale rol bij het analyseren en optimaliseren van React-code, waardoor ik effectief gebieden kon identificeren die verbetering nodig hadden. Tegelijkertijd voltooide ik het receptenboek door gedetailleerde scenario's te ontwikkelen om de conformiteit van elke functionaliteit van de site te controleren. Dit omvatte tests voor navigatie, formulieren, prestaties en vele andere aspecten. Mijn werk was cruciaal om ervoor te zorgen dat de site voldoet aan de hoogste kwaliteitsnormen, wat zorgt voor een optimale gebruikerservaring."
+    },
+    {
+      "id": "6",
+      "description": "React, Axios en API-integratie, met hulp van OpenWeatherMap en Unsplash.",
+      "client": "Persoonlijk project",
+      "presentation": "Ervaar real-time weerupdates met Hofman Weer. Deze gestroomlijnde en gebruiksvriendelijke weerapplicatie biedt prachtige stadsbeelden om de sfeer te bepalen, samen met maximale en minimale temperaturen en zonsopgangs- en zonsondergangstijden. Gebouwd met React, Axios en integratie van OpenWeatherMap API en Unsplash API, is Hofman Weer jouw app om altijd voorbereid te zijn op het weer.",
+      "mission": "Begonnen aan een soloreis om een project vanaf de basis te creëren, waarbij mijn vaardigheden voor end-to-end ontwikkeling worden gedemonstreerd. Dit project toont mijn vermogen om onafhankelijk een oplossing te conceptualiseren, te plannen en uit te voeren. Van idee tot implementatie weerspiegelt elke regel code mijn toewijding aan innovatie, probleemoplossing en een passie voor het leveren van hoogwaardige resultaten."
+    },
+    {
+      "id": "7",
+      "description": "Gebouwd met Vite-React voor snelheid en Firebase voor directe updates.",
+      "client": "Persoonlijk project",
+      "presentation": "Een dynamische Vite-React chat app aangedreven door Firebase. Dit innovatieve platform integreert real-time communicatie met een robuust authenticatiesysteem, en biedt gebruikers een veilige ruimte om verbinding te maken. Met een modern en intuïtief gebruikersinterface zorgt de app voor een soepele en plezierige chatervaring. Door gebruik te maken van de kracht van React voor een responsieve front-end en Firebase voor authenticatie en CRUD-operaties, toont dit project mijn vaardigheid in front-end ontwikkeling en mijn vermogen om dynamische, op de gebruiker gerichte toepassingen te creëren.",
+      "mission": "Mijn doel met dit project is om gebruikers een app aan te bieden waar ze moeiteloos kunnen deelnemen aan realtime gesprekken, terwijl hun privacy en beveiliging worden gewaarborgd via Firebase-authenticatie. Dit project toont niet alleen technische expertise, maar weerspiegelt ook mijn toewijding aan het bouwen van toepassingen die gebruikerservaringen verbeteren, connectiviteit bevorderen en voldoen aan de hoogste normen van functionaliteit en betrouwbaarheid."
     }
   ]
 }

@@ -103,6 +103,34 @@
       "React dev Tools", 
       "Web Optimisation"
     ] 
+  },
+  {
+    "id": "6",
+    "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/weather-app.webp",
+    "title": "Meteo App",
+    "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/weather-app.webp",
+    "github": "https://github.com/Gieltie/meteo-app",
+    "siteLink": "https://meteo-ghofman.netlify.app",
+    "tags": [ 
+      "React", 
+      "Axios", 
+      "OpenWeatherMap API", 
+      "Unsplash API"
+    ] 
+  },
+  {
+    "id": "7",
+    "screenShot": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/screenShots/hofman-chat.webp",
+    "title": "Chat App",
+    "logoImage": "https://raw.githubusercontent.com/Gieltie/12--portfolio-temp/main/frontend/src/assets/logos/hofman-chat.webp",
+    "github": "https://github.com/Gieltie/hofman-chat",
+    "siteLink": "https://chat-ghofman.netlify.app",
+    "tags": [ 
+      "React", 
+      "Firebase", 
+      "Firestore",
+      "Authentication"
+    ] 
   }
 ]
 

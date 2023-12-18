@@ -73,6 +73,20 @@
       "client": "724events, une agence évènementielle.",
       "presentation": "Le projet consiste en la finalisation d'un site web one-page pour 724events. Le design a été approuvé, mais des bugs subsistent, entravant l'expérience des visiteurs. L'urgence de la demande émane du directeur marketing, Jean-Baptiste, qui souhaite minimiser les retards. J'ai reçu le code du site ainsi qu'un cahier de recette partiellement complété par le développeur précédent.",
       "mission": "Ma mission a consisté à optimiser le site web de 724events en effectuant un débogage approfondi. J'ai débuté par une analyse approfondie du code source existant, ciblant les problèmes techniques susceptibles d'entraver les performances du site. Mon objectif principal était d'assurer la fluidité et la réactivité du site pour les visiteurs. Pour atteindre cet objectif, j'ai mis en place des tests unitaires pour scruter chaque composant du site. Les React Dev Tools ont joué un rôle crucial dans l'analyse et l'optimisation du code React, me permettant de cibler efficacement les zones nécessitant des améliorations. En parallèle, j'ai finalisé le cahier de recette en élaborant des scénarios détaillés pour vérifier la conformité de chaque fonctionnalité du site. Cela englobait des tests de navigation, de formulaire, de performance, et bien d'autres aspects. Mon travail a été déterminant pour garantir que le site répond aux normes de qualité les plus élevées, assurant ainsi une expérience utilisateur optimale."
+    },
+    {
+      "id": "6",
+      "description": "React, Axios et intégration d'API, mettant en vedette OpenWeatherMap et Unsplash.",
+      "client": "Projet personnel.",
+      "presentation": "Découvrez les mises à jour météorologiques en temps réel avec Météo Hofman. Cette application météo élégante et conviviale offre de magnifiques images de villes pour créer l'ambiance, ainsi que des températures maximales et minimales, et les heures de lever et de coucher du soleil. Construite avec React, Axios, et intégrant les API d'OpenWeatherMap et d'Unsplash, Meteo Hofman est votre application incontournable pour rester prêt face aux conditions météorologiques.",
+      "mission": "Engagé dans un parcours en solo pour créer un projet à partir de zéro, démontrant mes compétences de développement de bout en bout. Ce projet met en avant ma capacité à conceptualiser, planifier et exécuter une solution complète de manière indépendante. De l'idéation au déploiement, chaque ligne de code reflète un engagement envers l'innovation, la résolution de problèmes et une passion pour fournir des résultats de haute qualité."
+    },
+    {
+      "id": "7",
+      "description": "Construit avec Vite-React pour la rapidité et Firebase pour des mises à jour instantanées.",
+      "client": "Projet personnel.",
+      "presentation": "Cette application intègre de manière transparente la communication en temps réel avec un système d'authentification robuste, offrant aux utilisateurs un espace sûr et captivant pour se connecter. Avec une interface utilisateur moderne et intuitive, l'application garantit une expérience de chat fluide et agréable. En exploitant la puissance de React pour une interface utilisateur réactive et Firebase pour l'authentification et les opérations CRUD, ce projet met en avant ma compétence en développement front-end et ma capacité à créer des applications dynamiques centrées sur l'utilisateur.",
+      "mission": "Mon objectif avec ce projet est de fournir aux utilisateurs une plateforme où ils peuvent participer à des conversations en temps réel sans effort, tout en garantissant leur confidentialité et leur sécurité grâce à l'authentification Firebase. Ce projet démontre non seulement une expertise technique, mais reflète également mon engagement à construire des applications qui améliorent l'expérience utilisateur, favorisent la connectivité et respectent les normes les plus élevées de fonctionnalité et de fiabilité."
     }
   ]
 }
