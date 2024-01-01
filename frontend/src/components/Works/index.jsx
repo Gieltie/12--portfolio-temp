@@ -9,7 +9,7 @@ export default function Work() {
   const translatedProjects = projects.map(project => {
     const description = t(`cards.${project.id}.description`)
     return { ...project, description: description };
-  });
+  }).reverse();
   
   const cards = translatedProjects.map(({ title, description, github, siteLink, screenShot, id }, index) => (
     <Card

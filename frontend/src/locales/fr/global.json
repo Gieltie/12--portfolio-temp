@@ -16,10 +16,10 @@
   },
   "about": {
     "title": "À propos de moi",
-    "subtitle": "J'habite a Antibes, dans les alpes-maritimes",
-    "p1": "En 2022, j'ai décidé de tenter ma chance en créant un site web et je suis tombé la tête la première dans le terrier du codage et du développement web. Je progresse rapidement dans l'apprentissage de ces nouveaux langages",
-    "p2": "Je suis confiant de manière discrète, naturellement curieux et constamment en train d'améliorer mes compétences en résolvant un problème de conception à la fois.",
-    "p3": "Quand je ne suis pas devant l'ordinateur, je fais généralement du vélo, de la plongée sous-marine ou je passe du temps avec ma femme et nos deux petits monstres."
+    "subtitle": "J'habite à Antibes, dans les Alpes-Maritimes",
+    "p1": "Développeur web front-end, fort de la réussite de plusieurs projets professionnels d'envergure, diplômé d'Openclassrooms et spécialisé en React et Javascript. Doté de remarquables capacités de travail en équipe, de gestion du temps et de résolution de problèmes.",
+    "p2": "Mon intérêt pour les ordinateurs remonte à mon enfance, avec la réinstallation des PC. Mon amour pour la programmation m'a conduit à devenir développeur web, fusionnant ainsi ma passion originelle pour l'informatique avec le plaisir de coder. Mon goût du voyage, mon intérêt pour l’inconnu et ma curiosité font de moi un collaborateur toujours en quête d’axes d’amélioration et d’entraides appréciables. Aujourd'hui, je m'investis dans le développement web afin de renouer avec ma passion première et me permettant de concilier vie professionnelle enrichissante sans pour autant renoncer à une vie de famille et des week-ends ressourçant avec mes petits monstres.",
+    "p3": "Doté d'une grande patience, j’excelle dans la recherche et la correction d'erreurs, garantissant une qualité optimale dans mes projets qui sont construits avec une précision pixel par pixel et en respectant scrupuleusement les designs."
   },
   "work": {
     "title": "Mes Projets",
@@ -34,45 +34,45 @@
   "cards": [
     {
       "id": "0",
-      "description": "Banque en ligne innovante, utilise React, Redux, et des pratiques de Green Code.",
-      "client": "Argent Bank, une nouvelle banque en ligne, cherche à percer dans le secteur bancaire en offrant une expérience innovante aux utilisateurs.",
-      "presentation": "Avery Moreau, CTO, supervise la création d'un tableau de bord utilisateur réactif avec React et Redux en collaboration avec le chef de projet Mila. La première phase se focalise sur l'authentification, tandis que la seconde explore les transactions.",
-      "mission": "En tant que développeur front-end, ma mission a consisté à créer une application web complète et responsive en utilisant les modèles HTML/CSS fournis. L'intégration a suivi les bonnes pratiques de Green Code, avec une attention particulière à l'optimisation des images et à la création de composants réutilisables. La collaboration étroite avec l'équipe et la contribution à la modélisation des routes API pour la gestion des transactions ont également été essentielles."
-    },
-    {
-      "id": "1",
-      "description": "Refonte front-end. Migration ASP.NET à NodeJS/React, création de composants, maquettes Figma,",
-      "client": "Kasa, une entreprise majeure dans la location d'appartements entre particuliers en France.",
-      "presentation": "Le projet consiste en une refonte totale de la plateforme web existante, développée il y a plus de 10 ans en ASP.NET. Sous la direction de Laura, la CTO, l'objectif est de migrer vers une stack moderne en JavaScript, avec NodeJS pour le back-end et React pour le front-end. Le designer freelance, Paul, a élaboré des maquettes détaillées sur Figma, accompagnées de prototypes, pour guider le processus de développement.",
-      "mission": "En tant que développeur front-end, j'ai créé tous les composants React, implémenté les routes avec React Router, et assuré la responsivité du site. En l'absence temporaire d'une équipe complète pour le back-end, j'ai utilisé des données extraites des 20 dernières annonces de logements fournies dans un fichier JSON. L'objectif principal était de fournir une expérience utilisateur moderne et fonctionnelle, tout en respectant les normes de qualité de code de Kasa."
-    },
-    {
-      "id": "2",
-      "description": "Fonctionnalités clés : filtrage, connexion sécurisée (JWT), modale de gestion des projets. Utilisation de JavaScript, API, gestion Kanban.",
-      "client": "Sophie Bluel, architecte d'intérieur renommée, est le client pour le projet du portfolio.",
-      "presentation": "Le projet consiste à développer un site portfolio interactif pour Sophie Bluel. La page de présentation permettra aux visiteurs de découvrir ses réalisations avec des options de filtrage par catégorie. L'administratrice (Sophie) aura accès à une page de connexion sécurisée pour gérer son portfolio à travers une modale intuitive pour ajouter/supprimer des projets.",
-      "mission": "Ma mission en tant que développeur front-end a inclus la création de la page de présentation avec des fonctionnalités de filtrage, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT pour l'authentification, et la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, tout en suivant une gestion agile du projet via un tableau Kanban détaillé."
-    },
-    {
-      "id": "3",
       "description": "Plateforme de Restauration Innovante à Paris, JavaScript, Responsive Design, Figma, Intégration Mobile First.",
       "client": "Ohmyfood, une startup ambitieuse présente à New York et cherchant à s'imposer sur le marché de la restauration à Paris..",
       "presentation": "Développement d'une plateforme de restauration innovante offrant aux clients la possibilité de consulter les menus de restaurants gastronomiques, composer leur repas, et effectuer des réservations. Le site se distingue par son approche en 'mobile first', sa conception responsive et des animations soignées.",
       "mission": "En tant que développeur junior chez Ohmyfood, ma mission était de concrétiser le projet en intégrant les maquettes mobile et desktop, en respectant les normes de responsive design. Les tâches comprenaient l'utilisation de technologies telles que HTML5, CSS3, et JavaScript, avec une attention particulière aux détails des animations définies dans le prototype Figma. L'objectif était de créer une expérience utilisateur fluide et novatrice, répondant aux besoins des clients et des restaurateurs partenaires."
     },
     {
-      "id": "4",
+      "id": "1",
+      "description": "Fonctionnalités clés : filtrage, connexion sécurisée (JWT), modale de gestion des projets. Utilisation de JavaScript, API, gestion Kanban.",
+      "client": "Sophie Bluel, architecte d'intérieur renommée, est le client pour le projet du portfolio.",
+      "presentation": "Le projet consiste à développer un site portfolio interactif pour Sophie Bluel. La page de présentation permettra aux visiteurs de découvrir ses réalisations avec des options de filtrage par catégorie. L'administratrice (Sophie) aura accès à une page de connexion sécurisée pour gérer son portfolio à travers une modale intuitive pour ajouter/supprimer des projets.",
+      "mission": "Ma mission en tant que développeur front-end a inclus la création de la page de présentation avec des fonctionnalités de filtrage, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT pour l'authentification, et la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, tout en suivant une gestion agile du projet via un tableau Kanban détaillé."
+    },
+    {
+      "id": "2",
+      "description": "Refonte front-end. Migration ASP.NET à NodeJS/React, création de composants, maquettes Figma,",
+      "client": "Kasa, une entreprise majeure dans la location d'appartements entre particuliers en France.",
+      "presentation": "Le projet consiste en une refonte totale de la plateforme web existante, développée il y a plus de 10 ans en ASP.NET. Sous la direction de Laura, la CTO, l'objectif est de migrer vers une stack moderne en JavaScript, avec NodeJS pour le back-end et React pour le front-end. Le designer freelance, Paul, a élaboré des maquettes détaillées sur Figma, accompagnées de prototypes, pour guider le processus de développement.",
+      "mission": "En tant que développeur front-end, j'ai créé tous les composants React, implémenté les routes avec React Router, et assuré la responsivité du site. En l'absence temporaire d'une équipe complète pour le back-end, j'ai utilisé des données extraites des 20 dernières annonces de logements fournies dans un fichier JSON. L'objectif principal était de fournir une expérience utilisateur moderne et fonctionnelle, tout en respectant les normes de qualité de code de Kasa."
+    },
+    {
+      "id": "3",
       "description": "Amélioration des performances, optimisation SEO, référencement local, ajout de métas pour les réseaux sociaux, l'accessibilité.",
       "client": "Nina Carducci, photographe spécialisée dans les portraits et l'événementiel.",
       "presentation": "Le projet consiste en l'optimisation complète du site web de Nina Carducci (ninacarducci.github.io). À travers une approche holistique, le focus est mis sur l'amélioration des performances, l'optimisation SEO, la mise en place du référencement local (Schema.org), l'ajout de métas pour les réseaux sociaux, et des ajustements visant à renforcer l'accessibilité.",
       "mission": "Optimiser le site pour accroître sa visibilité en ligne, attirer de nouveaux clients, et offrir une expérience utilisateur optimale. Les actions comprennent la refonte du code, l'intégration de données structurées, l'ajout de métadonnées sociales, et des ajustements pour améliorer l'accessibilité. Livraison d'un rapport détaillé sur les actions effectuées et leurs impacts."
     },
     {
-      "id": "5",
+      "id": "4",
       "description": "Mission de débogage et de test pour la version vitrine du site de l'agence évènementielle 724events.",
       "client": "724events, une agence évènementielle.",
       "presentation": "Le projet consiste en la finalisation d'un site web one-page pour 724events. Le design a été approuvé, mais des bugs subsistent, entravant l'expérience des visiteurs. L'urgence de la demande émane du directeur marketing, Jean-Baptiste, qui souhaite minimiser les retards. J'ai reçu le code du site ainsi qu'un cahier de recette partiellement complété par le développeur précédent.",
       "mission": "Ma mission a consisté à optimiser le site web de 724events en effectuant un débogage approfondi. J'ai débuté par une analyse approfondie du code source existant, ciblant les problèmes techniques susceptibles d'entraver les performances du site. Mon objectif principal était d'assurer la fluidité et la réactivité du site pour les visiteurs. Pour atteindre cet objectif, j'ai mis en place des tests unitaires pour scruter chaque composant du site. Les React Dev Tools ont joué un rôle crucial dans l'analyse et l'optimisation du code React, me permettant de cibler efficacement les zones nécessitant des améliorations. En parallèle, j'ai finalisé le cahier de recette en élaborant des scénarios détaillés pour vérifier la conformité de chaque fonctionnalité du site. Cela englobait des tests de navigation, de formulaire, de performance, et bien d'autres aspects. Mon travail a été déterminant pour garantir que le site répond aux normes de qualité les plus élevées, assurant ainsi une expérience utilisateur optimale."
+    },
+    {
+      "id": "5",
+      "description": "Banque en ligne innovante, utilise React, Redux, et des pratiques de Green Code.",
+      "client": "Argent Bank, une nouvelle banque en ligne, cherche à percer dans le secteur bancaire en offrant une expérience innovante aux utilisateurs.",
+      "presentation": "Avery Moreau, CTO, supervise la création d'un tableau de bord utilisateur réactif avec React et Redux en collaboration avec le chef de projet Mila. La première phase se focalise sur l'authentification, tandis que la seconde explore les transactions.",
+      "mission": "En tant que développeur front-end, ma mission a consisté à créer une application web complète et responsive en utilisant les modèles HTML/CSS fournis. L'intégration a suivi les bonnes pratiques de Green Code, avec une attention particulière à l'optimisation des images et à la création de composants réutilisables. La collaboration étroite avec l'équipe et la contribution à la modélisation des routes API pour la gestion des transactions ont également été essentielles."
     },
     {
       "id": "6",
@@ -87,6 +87,13 @@
       "client": "Projet personnel.",
       "presentation": "Cette application intègre de manière transparente la communication en temps réel avec un système d'authentification robuste, offrant aux utilisateurs un espace sûr et captivant pour se connecter. Avec une interface utilisateur moderne et intuitive, l'application garantit une expérience de chat fluide et agréable. En exploitant la puissance de React pour une interface utilisateur réactive et Firebase pour l'authentification et les opérations CRUD, ce projet met en avant ma compétence en développement front-end et ma capacité à créer des applications dynamiques centrées sur l'utilisateur.",
       "mission": "Mon objectif avec ce projet est de fournir aux utilisateurs une plateforme où ils peuvent participer à des conversations en temps réel sans effort, tout en garantissant leur confidentialité et leur sécurité grâce à l'authentification Firebase. Ce projet démontre non seulement une expertise technique, mais reflète également mon engagement à construire des applications qui améliorent l'expérience utilisateur, favorisent la connectivité et respectent les normes les plus élevées de fonctionnalité et de fiabilité."
+    },
+    {
+      "id": "8",
+      "description": "React, Axios et intégration d'API, mettant en vedette OpenWeatherMap et Unsplash.",
+      "client": "Projet personnel.",
+      "presentation": "Découvrez les mises à jour météorologiques en temps réel avec Météo Hofman. Cette application météo élégante et conviviale offre de magnifiques images de villes pour créer l'ambiance, ainsi que des températures maximales et minimales, et les heures de lever et de coucher du soleil. Construite avec React, Axios, et intégrant les API d'OpenWeatherMap et d'Unsplash, Meteo Hofman est votre application incontournable pour rester prêt face aux conditions météorologiques.",
+      "mission": "Engagé dans un parcours en solo pour créer un projet à partir de zéro, démontrant mes compétences de développement de bout en bout. Ce projet met en avant ma capacité à conceptualiser, planifier et exécuter une solution complète de manière indépendante. De l'idéation au déploiement, chaque ligne de code reflète un engagement envers l'innovation, la résolution de problèmes et une passion pour fournir des résultats de haute qualité."
     }
   ]
 }

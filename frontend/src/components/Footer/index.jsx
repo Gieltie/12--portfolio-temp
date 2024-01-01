@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <Link to="mailto:gieltie@outlook.fr" className="footer__link">
-        gieltie@outlook.fr
+        gael.hofman@outlook.fr
       </Link>
       <ul className="social-list">
         <li className="social-list__item">

@@ -17,9 +17,9 @@
   "about": {
     "title": "Over Mijzelf",
     "subtitle": "Ik woon in Antibes, Zuid-Frankrijk",
-    "p1": "In 2022 besloot ik een website te maken en ontdekte ik de wereld van coderen en webontwikkeling. Ik maak snel vorderingen in het leren van deze nieuwe talen.",
-    "p2": "Ik ben zelfverzekerd, van nature nieuwsgierig en ik werk er voortdurend aan om elk probleem één voor één op te lossen.",
-    "p3": "Als ik niet voor de computer zit, ga ik meestal fietsen, duiken of breng ik tijd door met mijn vrouw en onze twee kleine boefjes."
+    "p1": "Front-end web developer, met succesvolle betrokkenheid bij diverse grootschalige professionele projecten, afgestudeerd aan Openclassrooms en gespecialiseerd in React en Javascript. Uitgerust met opmerkelijke vaardigheden op het gebied van teamwork, tijdmanagement en probleemoplossing.",
+    "p2": "Mijn interesse in computers gaat terug tot mijn kindertijd, met het herinstalleren van pc's. Mijn liefde voor programmeren leidde me naar het worden van een webontwikkelaar, waarbij ik mijn oorspronkelijke passie voor informatica combineerde met het plezier van coderen. Mijn liefde voor reizen, mijn interesse in het onbekende en mijn nieuwsgierigheid maken van mij een samenwerkingsgerichte persoon die altijd op zoek is naar verbetering en waardevolle ondersteuning. Vandaag zet ik me in voor webontwikkeling om weer in contact te komen met mijn eerste passie en tegelijkertijd een bevredigende professionele carrière te combineren met een gezinsleven en ontspannen weekends met mijn kleine monsters.",
+    "p3": "Met een groot geduld blink ik uit in het opsporen en corrigeren van fouten, wat zorgt voor optimale kwaliteit in mijn projecten. Deze worden met nauwgezette precisie, pixel per pixel, gebouwd en respecteren strikt de ontwerpen."
   },
   "work": {
     "title": "Mijn Projecten",
@@ -34,45 +34,45 @@
   "cards": [
     {
       "id": "0",
-      "description": "Innovatieve online bank, gebruikt React, Redux en Green Code-praktijken.",
-      "client": "Argent Bank, een nieuwe online bank, streeft ernaar door te breken in de banksector door een innovatieve ervaring aan gebruikers te bieden.",
-      "presentation": "Avery Moreau, CTO, ziet toe op de creatie van een responsief gebruikersdashboard met React en Redux in samenwerking met projectmanager Mila. De eerste fase richt zich op authenticatie, terwijl de tweede transacties verkent.",
-      "mission": "Als front-end ontwikkelaar was mijn missie om een complete en responsieve webtoepassing te creëren met behulp van de verstrekte HTML/CSS-templates. Integratie volgde de best practices van Green Code, met nadruk op optimalisatie van afbeeldingen en het maken van herbruikbare componenten. Nauwe samenwerking met het team en bijdragen aan de modellering van API-routes voor transactiebeheer waren ook cruciaal."
-    },
-    {
-      "id": "1",
-      "description": "Herontwerp front-end. Migratie van ASP.NET naar NodeJS/React, creatie van componenten, Figma-maquettes.",
-      "client": "Kasa, een belangrijke speler in particuliere appartementenverhuur in Frankrijk.",
-      "presentation": "Het project omvat een totale herontwerp van het bestaande webplatform, meer dan 10 jaar geleden ontwikkeld in ASP.NET. Onder leiding van Laura, de CTO, is het doel om over te stappen naar een moderne JavaScript-stack, met NodeJS voor de back-end en React voor de front-end. Freelance ontwerper Paul heeft gedetailleerde Figma-maquettes gemaakt, vergezeld van prototypes, om het ontwikkelingsproces te begeleiden.",
-      "mission": "Als front-end ontwikkelaar heb ik alle React-componenten gemaakt, routes geïmplementeerd met React Router en de responsiviteit van de site gewaarborgd. In de tijdelijke afwezigheid van een volledig back-end team heb ik gegevens gebruikt die zijn geëxtraheerd uit de laatste 20 huisvermeldingen die zijn verstrekt in een JSON-bestand. Het belangrijkste doel was om een moderne en functionele gebruikerservaring te bieden, terwijl Kasa's codekwaliteitsnormen werden nageleefd."
-    },
-    {
-      "id": "2",
-      "description": "Belangrijkste functies: filteren, veilige login (JWT), modale projectbeheer. Gebruik van JavaScript, API, Kanban-beheer.",
-      "client": "Sophie Bluel, gerenommeerde interieurarchitect, is de klant voor het portfolioproject.",
-      "presentation": "Het project omvat het ontwikkelen van een interactieve portfoliowebsite voor Sophie Bluel. De presentatiepagina stelt bezoekers in staat om haar werk te ontdekken met filteropties per categorie. De beheerder (Sophie) heeft toegang tot een beveiligde inlogpagina om haar portfolio te beheren via een intuïtieve modale voor het toevoegen/verwijderen van projecten.",
-      "mission": "Mijn missie als front-end ontwikkelaar omvatte het maken van de presentatiepagina met filterfuncties, het ontwikkelen van de beveiligde inlogpagina van de beheerder met gebruik van JWT voor authenticatie, en het ontwerpen van een modale om de architect in staat te stellen projecten toe te voegen of te verwijderen. Ik gebruikte JavaScript om dynamisch elementen te genereren door te communiceren met een API, terwijl ik een agile projectbeheer volgde via een gedetailleerd Kanban-bord."
-    },
-    {
-      "id": "3",
       "description": "Innovatief restaurantplatform in Parijs, JavaScript, Responsive Design, Figma, Mobile-First Integratie.",
       "client": "Ohmyfood, een ambitieuze startup aanwezig in New York, die zich wil vestigen op de Parijse restaurantmarkt.",
       "presentation": "Ontwikkeling van een innovatief restaurantplatform dat klanten de mogelijkheid biedt om menu's van gastronomische restaurants te bekijken, hun maaltijden samen te stellen en reserveringen te maken. De site onderscheidt zich door zijn 'mobile-first'-benadering, responsief ontwerp en verzorgde animaties.",
       "mission": "Als junior ontwikkelaar bij Ohmyfood was mijn missie om het project tot leven te brengen door mobiele en desktop-maquettes te integreren, terwijl ik me hield aan de normen voor responsief ontwerp. Taken omvatten het gebruik van technologieën zoals HTML5, CSS3 en JavaScript, met speciale aandacht voor de details van animaties die zijn gedefinieerd in het Figma-prototype. Het doel was om een soepele en innovatieve gebruikerservaring te creëren, die voldoet aan de behoeften van zowel klanten als partnerrestaurants."
     },
     {
-      "id": "4",
+      "id": "1",
+      "description": "Belangrijkste functies: filteren, veilige login (JWT), modale projectbeheer. Gebruik van JavaScript, API, Kanban-beheer.",
+      "client": "Sophie Bluel, gerenommeerde interieurarchitect, is de klant voor het portfolioproject.",
+      "presentation": "Het project omvat het ontwikkelen van een interactieve portfoliowebsite voor Sophie Bluel. De presentatiepagina stelt bezoekers in staat om haar werk te ontdekken met filteropties per categorie. De beheerder (Sophie) heeft toegang tot een beveiligde inlogpagina om haar portfolio te beheren via een intuïtieve modale voor het toevoegen/verwijderen van projecten.",
+      "mission": "Mijn missie als front-end ontwikkelaar omvatte het maken van de presentatiepagina met filterfuncties, het ontwikkelen van de beveiligde inlogpagina van de beheerder met gebruik van JWT voor authenticatie, en het ontwerpen van een modale om de architect in staat te stellen projecten toe te voegen of te verwijderen. Ik gebruikte JavaScript om dynamisch elementen te genereren door te communiceren met een API, terwijl ik een agile projectbeheer volgde via een gedetailleerd Kanban-bord."
+    },
+    {
+      "id": "2",
+      "description": "Herontwerp front-end. Migratie van ASP.NET naar NodeJS/React, creatie van componenten, Figma-maquettes.",
+      "client": "Kasa, een belangrijke speler in particuliere appartementenverhuur in Frankrijk.",
+      "presentation": "Het project omvat een totale herontwerp van het bestaande webplatform, meer dan 10 jaar geleden ontwikkeld in ASP.NET. Onder leiding van Laura, de CTO, is het doel om over te stappen naar een moderne JavaScript-stack, met NodeJS voor de back-end en React voor de front-end. Freelance ontwerper Paul heeft gedetailleerde Figma-maquettes gemaakt, vergezeld van prototypes, om het ontwikkelingsproces te begeleiden.",
+      "mission": "Als front-end ontwikkelaar heb ik alle React-componenten gemaakt, routes geïmplementeerd met React Router en de responsiviteit van de site gewaarborgd. In de tijdelijke afwezigheid van een volledig back-end team heb ik gegevens gebruikt die zijn geëxtraheerd uit de laatste 20 huisvermeldingen die zijn verstrekt in een JSON-bestand. Het belangrijkste doel was om een moderne en functionele gebruikerservaring te bieden, terwijl Kasa's codekwaliteitsnormen werden nageleefd."
+    },
+    {
+      "id": "3",
       "description": "Prestatieverbetering, SEO-optimalisatie, lokale SEO, toevoeging van sociale-mediameta's, toegankelijkheid.",
       "client": "Nina Carducci, gespecialiseerd in portret- en evenementenfotografie.",
       "presentation": "Het project omvat de volledige optimalisatie van de website van Nina Carducci (ninacarducci.github.io). Via een holistische aanpak ligt de nadruk op het verbeteren van prestaties, SEO-optimalisatie, implementatie van lokale SEO (Schema.org), toevoeging van meta's voor sociale media en aanpassingen om de toegankelijkheid te verbeteren.",
       "mission": "Optimaliseren van de site om de online zichtbaarheid te vergroten, nieuwe klanten aan te trekken en een optimale gebruikerservaring te bieden. Acties omvatten codeherontwerp, integratie van gestructureerde gegevens, toevoeging van sociale metagegevens en aanpassingen om de toegankelijkheid te verbeteren. Levering van een gedetailleerd rapport over de genomen maatregelen en hun impact."
     },
     {
-      "id": "5",
+      "id": "4",
       "description": "Debug- en testmissie voor de showcase-versie van de website van het evenementenbureau 724events.",
       "client": "724events, een evenementenbureau.",
       "presentation": "Het project omvat het voltooien van een one-page website voor 724events. Het ontwerp is goedgekeurd, maar er zijn nog bugs die het bezoekerservaring belemmeren. De urgentie van het verzoek komt van marketingdirecteur Jean-Baptiste, die de vertragingen wil minimaliseren. Ik kreeg de code van de site en een gedeeltelijk ingevuld receptenboek van de vorige ontwikkelaar.",
       "mission": "Mijn missie was om de website van 724events te optimaliseren door grondig te debuggen. Ik begon met een diepgaande analyse van de bestaande broncode, gericht op technische problemen die de prestaties van de site zouden kunnen beïnvloeden. Mijn belangrijkste doel was om de soepelheid en responsiviteit van de site voor bezoekers te waarborgen. Om dit te bereiken, voerde ik unit-tests uit om elk onderdeel van de site te onderzoeken. React Dev Tools speelden een cruciale rol bij het analyseren en optimaliseren van React-code, waardoor ik effectief gebieden kon identificeren die verbetering nodig hadden. Tegelijkertijd voltooide ik het receptenboek door gedetailleerde scenario's te ontwikkelen om de conformiteit van elke functionaliteit van de site te controleren. Dit omvatte tests voor navigatie, formulieren, prestaties en vele andere aspecten. Mijn werk was cruciaal om ervoor te zorgen dat de site voldoet aan de hoogste kwaliteitsnormen, wat zorgt voor een optimale gebruikerservaring."
+    },
+    {
+      "id": "5",
+      "description": "Innovatieve online bank, gebruikt React, Redux en Green Code-praktijken.",
+      "client": "Argent Bank, een nieuwe online bank, streeft ernaar door te breken in de banksector door een innovatieve ervaring aan gebruikers te bieden.",
+      "presentation": "Avery Moreau, CTO, ziet toe op de creatie van een responsief gebruikersdashboard met React en Redux in samenwerking met projectmanager Mila. De eerste fase richt zich op authenticatie, terwijl de tweede transacties verkent.",
+      "mission": "Als front-end ontwikkelaar was mijn missie om een complete en responsieve webtoepassing te creëren met behulp van de verstrekte HTML/CSS-templates. Integratie volgde de best practices van Green Code, met nadruk op optimalisatie van afbeeldingen en het maken van herbruikbare componenten. Nauwe samenwerking met het team en bijdragen aan de modellering van API-routes voor transactiebeheer waren ook cruciaal."
     },
     {
       "id": "6",
@@ -87,6 +87,13 @@
       "client": "Persoonlijk project",
       "presentation": "Een dynamische Vite-React chat app aangedreven door Firebase. Dit innovatieve platform integreert real-time communicatie met een robuust authenticatiesysteem, en biedt gebruikers een veilige ruimte om verbinding te maken. Met een modern en intuïtief gebruikersinterface zorgt de app voor een soepele en plezierige chatervaring. Door gebruik te maken van de kracht van React voor een responsieve front-end en Firebase voor authenticatie en CRUD-operaties, toont dit project mijn vaardigheid in front-end ontwikkeling en mijn vermogen om dynamische, op de gebruiker gerichte toepassingen te creëren.",
       "mission": "Mijn doel met dit project is om gebruikers een app aan te bieden waar ze moeiteloos kunnen deelnemen aan realtime gesprekken, terwijl hun privacy en beveiliging worden gewaarborgd via Firebase-authenticatie. Dit project toont niet alleen technische expertise, maar weerspiegelt ook mijn toewijding aan het bouwen van toepassingen die gebruikerservaringen verbeteren, connectiviteit bevorderen en voldoen aan de hoogste normen van functionaliteit en betrouwbaarheid."
+    },
+    {
+      "id": "8",
+      "description": "React, Axios et intégration d'API, mettant en vedette OpenWeatherMap et Unsplash.",
+      "client": "Projet personnel.",
+      "presentation": "Découvrez les mises à jour météorologiques en temps réel avec Météo Hofman. Cette application météo élégante et conviviale offre de magnifiques images de villes pour créer l'ambiance, ainsi que des températures maximales et minimales, et les heures de lever et de coucher du soleil. Construite avec React, Axios, et intégrant les API d'OpenWeatherMap et d'Unsplash, Meteo Hofman est votre application incontournable pour rester prêt face aux conditions météorologiques.",
+      "mission": "Engagé dans un parcours en solo pour créer un projet à partir de zéro, démontrant mes compétences de développement de bout en bout. Ce projet met en avant ma capacité à conceptualiser, planifier et exécuter une solution complète de manière indépendante. De l'idéation au déploiement, chaque ligne de code reflète un engagement envers l'innovation, la résolution de problèmes et une passion pour fournir des résultats de haute qualité."
     }
   ]
 }

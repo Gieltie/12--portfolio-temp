@@ -17,9 +17,9 @@
   "about": {
     "title": "About Me",
     "subtitle": "I'm based in Antibes, France",
-    "p1": "In 2022, I decided to take a chance by creating a website, and I fell headfirst into the rabbit hole of coding and web development. I'm making rapid progress in learning these new languages.",
-    "p2": "I am quietly confident, naturally curious, and constantly improving my skills by solving one design problem at a time.",
-    "p3": "When I'm not in front of the computer, I usually bike, scuba dive, or spend time with my wife and our two little monsters."
+    "p1": "Front-end web developer, successful in several major professional projects, graduate of Openclassrooms, and specialized in React and Javascript. Endowed with remarkable teamwork, time management, and problem-solving skills.",
+    "p2": "My interest in computers dates back to my childhood, tinkering with PC installations. My love for programming led me to become a web developer, merging my original passion for computers with the joy of coding. My love for travel, fascination with the unknown, and curiosity make me a collaborator always seeking improvement and appreciating mutual assistance. Today, I am dedicated to web development, reconnecting with my initial passion and allowing me to balance a fulfilling professional life without sacrificing a family-oriented lifestyle and weekends spent recharging with my little monsters.",
+    "p3": "Endowed with great patience, I excel in the search and correction of errors, ensuring optimal quality in my projects, which are built with pixel-perfect precision and scrupulously adhere to the designs."
   },
   "work": {
     "title": "My Work",
@@ -34,45 +34,45 @@
   "cards": [
     {
       "id": "0",
-      "description": "Innovative online bank, uses React, Redux, and Green Code practices.",
-      "client": "Argent Bank, a new online bank, aims to break into the banking sector by offering an innovative experience to users.",
-      "presentation": "Avery Moreau, CTO, oversees the creation of a responsive user dashboard with React and Redux in collaboration with project manager Mila. The first phase focuses on authentication, while the second explores transactions.",
-      "mission": "As a front-end developer, my mission was to create a complete and responsive web application using the provided HTML/CSS templates. Integration followed Green Code best practices, with a focus on image optimization and the creation of reusable components. Close collaboration with the team and contribution to API route modeling for transaction management were also crucial."
-    },
-    {
-      "id": "1",
-      "description": "Front-end redesign. Migration from ASP.NET to NodeJS/React, creation of components, Figma mockups.",
-      "client": "Kasa, a major player in peer-to-peer apartment rentals in France.",
-      "presentation": "The project involves a total redesign of the existing web platform, developed over 10 years ago in ASP.NET. Under the direction of Laura, the CTO, the goal is to migrate to a modern JavaScript stack, with NodeJS for the back-end and React for the front-end. Freelance designer Paul created detailed Figma mockups, accompanied by prototypes, to guide the development process.",
-      "mission": "As a front-end developer, I created all React components, implemented routes with React Router, and ensured the site's responsiveness. In the temporary absence of a complete back-end team, I used data extracted from the last 20 housing listings provided in a JSON file. The main objective was to provide a modern and functional user experience while adhering to Kasa's code quality standards."
-    },
-    {
-      "id": "2",
-      "description": "Key features: filtering, secure login (JWT), project management modal. Use of JavaScript, API, Kanban management.",
-      "client": "Sophie Bluel, renowned interior architect, is the client for the portfolio project.",
-      "presentation": "The project involves developing an interactive portfolio site for Sophie Bluel. The presentation page will allow visitors to discover her work with filtering options by category. The administrator (Sophie) will have access to a secure login page to manage her portfolio through an intuitive modal for adding/removing projects.",
-      "mission": "My mission as a front-end developer included creating the presentation page with filtering features, developing the administrator's secure login page using JWT for authentication, and designing a modal for the architect to add or remove projects. I used JavaScript to dynamically generate elements by communicating with an API, all while following agile project management through a detailed Kanban board."
-    },
-    {
-      "id": "3",
       "description": "Innovative Restaurant Platform in Paris, JavaScript, Responsive Design, Figma, Mobile-First Integration.",
       "client": "Ohmyfood, an ambitious startup present in New York, seeking to establish itself in the Paris restaurant market.",
       "presentation": "Development of an innovative restaurant platform offering customers the ability to view menus from gourmet restaurants, compose their meals, and make reservations. The site stands out with its 'mobile-first' approach, responsive design, and polished animations.",
       "mission": "As a junior developer at Ohmyfood, my mission was to bring the project to life by integrating mobile and desktop mockups while adhering to responsive design standards. Tasks included using technologies such as HTML5, CSS3, and JavaScript, with particular attention to the details of animations defined in the Figma prototype. The goal was to create a smooth and innovative user experience, meeting the needs of both customers and partner restaurants."
     },
     {
-      "id": "4",
+      "id": "1",
+      "description": "Key features: filtering, secure login (JWT), project management modal. Use of JavaScript, API, Kanban management.",
+      "client": "Sophie Bluel, renowned interior architect, is the client for the portfolio project.",
+      "presentation": "The project involves developing an interactive portfolio site for Sophie Bluel. The presentation page will allow visitors to discover her work with filtering options by category. The administrator (Sophie) will have access to a secure login page to manage her portfolio through an intuitive modal for adding/removing projects.",
+      "mission": "My mission as a front-end developer included creating the presentation page with filtering features, developing the administrator's secure login page using JWT for authentication, and designing a modal for the architect to add or remove projects. I used JavaScript to dynamically generate elements by communicating with an API, all while following agile project management through a detailed Kanban board."
+    },
+    {
+      "id": "2",
+      "description": "Front-end redesign. Migration from ASP.NET to NodeJS/React, creation of components, Figma mockups.",
+      "client": "Kasa, a major player in peer-to-peer apartment rentals in France.",
+      "presentation": "The project involves a total redesign of the existing web platform, developed over 10 years ago in ASP.NET. Under the direction of Laura, the CTO, the goal is to migrate to a modern JavaScript stack, with NodeJS for the back-end and React for the front-end. Freelance designer Paul created detailed Figma mockups, accompanied by prototypes, to guide the development process.",
+      "mission": "As a front-end developer, I created all React components, implemented routes with React Router, and ensured the site's responsiveness. In the temporary absence of a complete back-end team, I used data extracted from the last 20 housing listings provided in a JSON file. The main objective was to provide a modern and functional user experience while adhering to Kasa's code quality standards."
+    },
+    {
+      "id": "3",
       "description": "Performance improvement, SEO optimization, local SEO, adding social media metas, accessibility.",
       "client": "Nina Carducci, specializing in portrait and event photography.",
       "presentation": "The project involves the complete optimization of Nina Carducci's website (ninacarducci.github.io). Through a holistic approach, the focus is on improving performance, SEO optimization, implementing local SEO (Schema.org), adding metas for social media, and making adjustments to enhance accessibility.",
       "mission": "Optimizing the site to increase online visibility, attract new clients, and offer an optimal user experience. Actions include code redesign, integration of structured data, adding social metadata, and adjustments to improve accessibility. Delivery of a detailed report on the actions taken and their impact."
     },
     {
-      "id": "5",
+      "id": "4",
       "description": "Debugging and testing mission for the showcase version of the 724events agency website.",
       "client": "724events, an event agency.",
       "presentation": "The project involves finalizing a one-page website for 724events. The design has been approved, but bugs remain, hindering the visitor experience. The urgency of the request comes from marketing director Jean-Baptiste, who wants to minimize delays. I received the site code and a partially completed recipe book from the previous developer.",
       "mission": "My mission was to optimize the 724events website by conducting thorough debugging. I started with a deep analysis of the existing source code, targeting technical issues that could impact the site's performance. My main goal was to ensure the site's smoothness and responsiveness for visitors. To achieve this, I implemented unit tests to scrutinize each component of the site. React Dev Tools played a crucial role in analyzing and optimizing React code, allowing me to effectively target areas that needed improvement. Simultaneously, I finalized the recipe book by developing detailed scenarios to verify the compliance of each site functionality. This included navigation, form, performance tests, and many other aspects. My work was crucial in ensuring that the site meets the highest quality standards, ensuring an optimal user experience."
+    },
+    {
+      "id": "5",
+      "description": "Innovative online bank, uses React, Redux, and Green Code practices.",
+      "client": "Argent Bank, a new online bank, aims to break into the banking sector by offering an innovative experience to users.",
+      "presentation": "Avery Moreau, CTO, oversees the creation of a responsive user dashboard with React and Redux in collaboration with project manager Mila. The first phase focuses on authentication, while the second explores transactions.",
+      "mission": "As a front-end developer, my mission was to create a complete and responsive web application using the provided HTML/CSS templates. Integration followed Green Code best practices, with a focus on image optimization and the creation of reusable components. Close collaboration with the team and contribution to API route modeling for transaction management were also crucial."
     },
     {
       "id": "6",
@@ -87,6 +87,13 @@
       "client": "Personal project.",
       "presentation": "This app seamlessly integrates real-time communication with a robust authentication system, offering users a secure and engaging space to connect. With a modern and intuitive user interface, the app ensures a smooth and enjoyable chat experience. Leveraging the power of React for a responsive front end and Firebase for authentication and CRUD operations, this project showcases my proficiency in front-end development and my ability to create dynamic, user-centric applications.",
       "mission": "My goal with this project is to provide users with a platform where they can engage in real-time conversations effortlessly while ensuring their privacy and security through Firebase authentication. This project not only demonstrates technical expertise but also reflects my commitment to building applications that enhance user experiences, promote connectivity, and adhere to the highest standards of functionality and reliability. As I continue to iterate and improve upon this project, my mission remains focused on creating digital environments that bring people together in a positive and enriching way."
+    },
+    {
+      "id": "8",
+      "description": "React, Axios et intégration d'API, mettant en vedette OpenWeatherMap et Unsplash.",
+      "client": "Projet personnel.",
+      "presentation": "Découvrez les mises à jour météorologiques en temps réel avec Météo Hofman. Cette application météo élégante et conviviale offre de magnifiques images de villes pour créer l'ambiance, ainsi que des températures maximales et minimales, et les heures de lever et de coucher du soleil. Construite avec React, Axios, et intégrant les API d'OpenWeatherMap et d'Unsplash, Meteo Hofman est votre application incontournable pour rester prêt face aux conditions météorologiques.",
+      "mission": "Engagé dans un parcours en solo pour créer un projet à partir de zéro, démontrant mes compétences de développement de bout en bout. Ce projet met en avant ma capacité à conceptualiser, planifier et exécuter une solution complète de manière indépendante. De l'idéation au déploiement, chaque ligne de code reflète un engagement envers l'innovation, la résolution de problèmes et une passion pour fournir des résultats de haute qualité."
     }
   ]
 }

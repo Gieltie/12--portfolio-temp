@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { SiMongodb, SiRedux, SiCss3, SiReact, SiHtml5, SiJavascript, SiNodedotjs, SiSass, SiGithub, SiNetlify, SiVercel } from "react-icons/si";
+import { SiMongodb, SiFirebase, SiRedux, SiCss3, SiReact, SiHtml5, SiJavascript, SiNodedotjs, SiSass, SiGithub, SiNetlify, SiVercel } from "react-icons/si";
 import WorkButton from '../Buttons/WorkButton'
 import './index.scss'
 
@@ -17,6 +17,7 @@ export default function Skills() {
             <li><SiJavascript /> Javascript</li>
             <li><SiNodedotjs /> Node.JS</li>
             <li><SiMongodb /> MongoDb</li>
+            <li><SiFirebase /> FireBase</li>
           </ul>
         </div>
 
